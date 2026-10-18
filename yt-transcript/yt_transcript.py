@@ -16,22 +16,24 @@ LANGS = 'en,en-US,en-GB,en-orig'
 
 
 def fetch_vtt(url):
+    """Return (vtt_path, title), or (None, None) if every client failed."""
     d = tempfile.mkdtemp()
     for client in CLIENTS:
         cmd = ['yt-dlp', '--skip-download', '--write-subs', '--write-auto-subs',
                '--sub-langs', LANGS, '--sub-format', 'vtt', '-q', '--no-warnings',
-               '-o', os.path.join(d, 'v'), url]
+               '--print', 'title', '--no-simulate', '-o', os.path.join(d, 'v'), url]
         if client != 'default':
             cmd[1:1] = ['--extractor-args', f'youtube:player_client={client}']
         print(f'Trying {client} ...', file=sys.stderr)
-        subprocess.run(cmd)
+        r = subprocess.run(cmd, stdout=subprocess.PIPE, text=True)
+        title = r.stdout.strip().splitlines()[0] if r.stdout.strip() else ''
         files = sorted(glob.glob(os.path.join(d, '*.vtt')))
         if files:
             # prefer the original-language auto track, then plain English
             files.sort(key=lambda f: ('en-orig' not in f, f))
-            return files[0]
+            return files[0], title
         time.sleep(2)
-    return None
+    return None, None
 
 
 def parse_vtt(path):
@@ -74,11 +76,11 @@ def main():
     p.add_argument('-o', '--output', help='also save to this file')
     a = p.parse_args()
 
-    vtt = fetch_vtt(a.url)
+    vtt, title = fetch_vtt(a.url)
     if not vtt:
         sys.exit('Could not get captions. Try again in a few minutes, '
                  'update yt-dlp (pip install -U yt-dlp), or use a backup method.')
-    text = format_text(parse_vtt(vtt), a.plain)
+    text = f'Video: {title}\n{a.url}\n\n' + format_text(parse_vtt(vtt), a.plain)
     if a.output:
         open(a.output, 'w', encoding='utf-8').write(text + '\n')
         print(f'Saved {a.output}', file=sys.stderr)
