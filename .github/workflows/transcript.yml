@@ -31,8 +31,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install yt-dlp
-        run: pip install -U yt-dlp
+      - name: Install tools
+        run: |
+          pip install -U "yt-dlp[default]" youtube-transcript-api
+          curl -fsSL https://deno.land/install.sh | sh -s -- -y > /dev/null
+          echo "$HOME/.deno/bin" >> "$GITHUB_PATH"
 
       - name: Find the video
         id: vid
@@ -45,8 +48,13 @@ jobs:
 
       - name: Download transcript
         run: |
-          python yt-transcript/yt_transcript.py "https://www.youtube.com/watch?v=${{ steps.vid.outputs.id }}" \
-            -o "yt-transcript/transcripts/${{ steps.vid.outputs.id }}.txt" > /dev/null
+          id=${{ steps.vid.outputs.id }}
+          out=yt-transcript/transcripts/$id.txt
+          python yt-transcript/yt_transcript.py "https://www.youtube.com/watch?v=$id" -o "$out" > /dev/null && exit 0
+          echo "yt-dlp failed; trying the backup library"
+          { printf 'Video: https://www.youtube.com/watch?v=%s\n\n' "$id"
+            python yt-transcript/backup_transcript_api.py "$id"; } > "$out.tmp" && mv "$out.tmp" "$out" && exit 0
+          rm -f "$out.tmp"; exit 1
 
       - name: Save it
         run: |
