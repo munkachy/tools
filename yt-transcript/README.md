@@ -4,8 +4,9 @@ Get a YouTube video's transcript as plain text, grouped into 5-minute blocks, re
 
 **Web page:** https://munkachy.github.io/tools/yt-transcript/
 
-## Three ways to use it
+## Ways to use it
 
+0. **iPhone** (`GetTranscript.js`, for the free Scriptable app). Share a YouTube video to it and the transcript lands on your clipboard. Setup steps are on the web page.
 1. **Bookmark button** (on the web page). Drag it to your bookmarks bar, open a YouTube video, and click it. A box shows the transcript with a *Copy for AI* button. Works in desktop browsers.
 2. **Paste and clean** (on the web page). Copy the text from YouTube's *Show transcript* panel, paste it in, and get clean 5-minute blocks. This always works, because nothing has to be downloaded.
 3. **Python scripts** (on your own computer):

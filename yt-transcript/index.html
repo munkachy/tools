@@ -58,8 +58,29 @@
   <h1>Transcript Grabber</h1>
   <p class="lede">Get a YouTube video's transcript as plain text, grouped into 5-minute blocks, ready to paste into Claude or any other AI.</p>
 
+  <section id="iphone">
+    <div class="step">iPhone · Paste or share a link</div>
+    <h2>Get Transcript for iPhone</h2>
+    <p>A small script for the free <b>Scriptable</b> app. Share a YouTube video to it, and the transcript lands on your clipboard, ready to paste into Claude.</p>
+    <p><b>Set it up once (about 3 minutes):</b></p>
+    <ol>
+      <li>Install <a href="https://apps.apple.com/app/scriptable/id1405459188">Scriptable</a> from the App Store. It's free.</li>
+      <li>Tap this button to copy the script: <br><button class="primary" id="copyscript">Copy the script</button> <span id="sstatus"></span></li>
+      <li>Open Scriptable, tap <b>+</b> at the top right, and paste.</li>
+      <li>Tap the title at the top ("Untitled Script") and rename it <b>Get Transcript</b>.</li>
+      <li>Tap the settings icon (the sliders at the bottom). Under <b>Share Sheet Inputs</b>, turn on <b>URLs</b> and <b>Text</b>. Tap <b>Done</b>.</li>
+    </ol>
+    <p><b>Each time you use it:</b></p>
+    <ol>
+      <li>In the YouTube app, tap <b>Share</b> under the video, then <b>More</b> (the "…" button).</li>
+      <li>Choose <b>Run Script</b>, then <b>Get Transcript</b>. (Tip: tap <b>Edit Actions</b> once and add Run Script to your favorites, so it's at the top.)</li>
+      <li>Choose <b>Copy for AI</b>, then paste into your chat.</li>
+    </ol>
+    <p class="note">Another way: copy the video's link, open Scriptable, and tap Get Transcript. It reads the link from your clipboard. It runs on your phone's own internet connection, which YouTube normally allows. If it ever says YouTube refused, wait a minute and try again.</p>
+  </section>
+
   <section>
-    <div class="step">Method 1 · Easiest</div>
+    <div class="step">Desktop only</div>
     <h2>The bookmark button</h2>
     <ol>
       <li>Drag this button to your browser's bookmarks bar: <br><a class="bm" id="bm" href="#">📜 Get Transcript</a></li>
@@ -70,7 +91,7 @@
   </section>
 
   <section>
-    <div class="step">Method 2 · Always works</div>
+    <div class="step">Backup · Always works</div>
     <h2>Paste and clean</h2>
     <ol>
       <li>On the YouTube page, open the description and click <b>Show transcript</b>.</li>
@@ -91,7 +112,7 @@
   </section>
 
   <section>
-    <div class="step">Method 3 · On your computer</div>
+    <div class="step">On your computer</div>
     <h2>Python scripts</h2>
     <p>If you have Python, these download the transcript by themselves. Get them from the <a href="https://github.com/munkachy/tools/tree/main/yt-transcript">repository</a>.</p>
     <p><b>Main script</b> (the one that worked in testing). It tries several ways in, because YouTube often blocks one but not another:</p>
@@ -194,6 +215,19 @@ document.getElementById('bm').addEventListener('click', e => {
   e.preventDefault();
   alert('Drag this button to your bookmarks bar, then click it while you are on a YouTube video.');
 });
+
+// ---------- Copy the iPhone script ----------
+document.getElementById('copyscript').onclick = async () => {
+  const st = document.getElementById('sstatus');
+  try {
+    const r = await fetch('https://raw.githubusercontent.com/munkachy/tools/main/yt-transcript/GetTranscript.js', { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    await navigator.clipboard.writeText(await r.text());
+    st.textContent = 'Copied ✓';
+  } catch (e) {
+    st.innerHTML = 'Could not copy. <a href="https://github.com/munkachy/tools/blob/main/yt-transcript/GetTranscript.js">Open the script</a> and copy it from there.';
+  }
+};
 
 // ---------- Paste and clean ----------
 function stamp(s) {
