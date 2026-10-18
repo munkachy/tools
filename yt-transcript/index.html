@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transcript Grabber</title>
+<style>
+  :root {
+    --bg: #f7f5f0; --card: #ffffff; --ink: #1f1d1a; --muted: #6b665e;
+    --line: #e2ddd3; --accent: #8a3b12; --accent-ink: #ffffff; --field: #fbfaf7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #171614; --card: #211f1c; --ink: #ece8e1; --muted: #a39d93;
+      --line: #36322d; --accent: #e08a55; --accent-ink: #1a1410; --field: #1b1a17;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 Georgia, "Iowan Old Style", serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 80px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 0 0 8px; }
+  .lede { color: var(--muted); margin: 0 0 32px; }
+  section {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 20px; margin-bottom: 20px;
+  }
+  .step { color: var(--muted); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+  ol { padding-left: 20px; margin: 8px 0; }
+  .bm {
+    display: inline-block; padding: 10px 16px; margin: 8px 0; border-radius: 8px;
+    background: var(--accent); color: var(--accent-ink); text-decoration: none;
+    font: 600 15px system-ui, sans-serif; cursor: grab;
+  }
+  textarea {
+    width: 100%; min-height: 220px; padding: 12px; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--field); color: var(--ink);
+    font: 14px/1.5 ui-monospace, Menlo, monospace; resize: vertical;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 12px 0; }
+  label { font: 14px system-ui, sans-serif; }
+  button {
+    padding: 9px 14px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--field); color: var(--ink); font: 600 14px system-ui, sans-serif; cursor: pointer;
+  }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  code { font: 13px ui-monospace, Menlo, monospace; background: var(--field); padding: 1px 5px; border-radius: 4px; }
+  pre { background: var(--field); border: 1px solid var(--line); padding: 12px; border-radius: 8px; overflow-x: auto; font-size: 13px; }
+  .note { color: var(--muted); font-size: .9rem; }
+  #status { font: 14px system-ui, sans-serif; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Transcript Grabber</h1>
+  <p class="lede">Get a YouTube video's transcript as plain text, grouped into 5-minute blocks, ready to paste into Claude or any other AI.</p>
+
+  <section>
+    <div class="step">Method 1 · Easiest</div>
+    <h2>The bookmark button</h2>
+    <ol>
+      <li>Drag this button to your browser's bookmarks bar: <br><a class="bm" id="bm" href="#">📜 Get Transcript</a></li>
+      <li>Open any YouTube video on a computer and click the bookmark.</li>
+      <li>A box appears with the transcript. Click <b>Copy for AI</b> and paste it into your chat.</li>
+    </ol>
+    <p class="note">Can't drag it? Right-click the button, copy the link, make a new bookmark, and paste the link as its address. Bookmarks like this run on desktop browsers, not in phone apps.</p>
+  </section>
+
+  <section>
+    <div class="step">Method 2 · Always works</div>
+    <h2>Paste and clean</h2>
+    <ol>
+      <li>On the YouTube page, open the description and click <b>Show transcript</b>.</li>
+      <li>Select all the transcript text in the side panel, copy it, and paste it below. (Caption files in .vtt or .srt format also work.)</li>
+    </ol>
+    <textarea id="input" placeholder="Paste the raw transcript here…"></textarea>
+    <div class="row">
+      <label><input type="radio" name="mode" value="blocks" checked> 5-minute blocks</label>
+      <label><input type="radio" name="mode" value="plain"> Plain text, no timestamps</label>
+      <label><input type="checkbox" id="prompt" checked> Add summary request for the AI</label>
+    </div>
+    <div class="row">
+      <button class="primary" id="clean">Clean it up</button>
+      <button id="copy">Copy</button>
+      <span id="status"></span>
+    </div>
+    <textarea id="output" readonly placeholder="Cleaned transcript appears here."></textarea>
+  </section>
+
+  <section>
+    <div class="step">Method 3 · On your computer</div>
+    <h2>Python scripts</h2>
+    <p>If you have Python, these download the transcript by themselves. Get them from the <a href="https://github.com/munkachy/tools/tree/main/yt-transcript">repository</a>.</p>
+    <p><b>Main script</b> (the one that worked in testing). It tries several ways in, because YouTube often blocks one but not another:</p>
+    <pre>pip install -U yt-dlp
+python yt_transcript.py "https://www.youtube.com/watch?v=VIDEO_ID"</pre>
+    <p><b>Backup script</b>, using a different library:</p>
+    <pre>pip install -U youtube-transcript-api
+python backup_transcript_api.py "https://www.youtube.com/watch?v=VIDEO_ID"</pre>
+    <p class="note">Add <code>--plain</code> to either one to leave out timestamps. On a Mac, add <code>| pbcopy</code> to the end of the command to copy the output straight to your clipboard.</p>
+  </section>
+</main>
+
+<script>
+const AI_PROMPT =
+  'Below is the transcript of a YouTube video, grouped in 5-minute blocks. ' +
+  'For each block, keep its timestamp as a heading and write a detailed summary: ' +
+  'the main points, the arguments and examples used, and any names, books or sources mentioned. ' +
+  'The captions were generated automatically, so correct obvious errors in names and terms, ' +
+  'and point out any you are unsure of.\n\n';
+
+// ---------- The bookmarklet. Runs on youtube.com, so it must not use anything outside itself. ----------
+function grabTranscript() {
+  const PROMPT = '__PROMPT__';
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  const toSec = s => s.split(':').reduce((a, b) => a * 60 + Number(b), 0);
+  const stamp = s => { s = Math.floor(s); return Math.floor(s / 3600) + ':' + String(Math.floor(s % 3600 / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); };
+  const format = (segs, plain) => {
+    if (plain) return segs.map(x => x[1]).join(' ');
+    const b = {};
+    segs.forEach(([s, t]) => { const k = Math.floor(s / 300); (b[k] = b[k] || []).push(t); });
+    return Object.keys(b).map(Number).sort((x, y) => x - y).map(k => '[' + stamp(k * 300) + ']\n' + b[k].join(' ')).join('\n\n');
+  };
+
+  (async () => {
+    if (!/youtube\.com/.test(location.host)) { alert('Open a YouTube video first, then click this bookmark.'); return; }
+    let segs = [];
+
+    // Way 1: ask YouTube's own caption feed.
+    try {
+      const pr = document.querySelector('#movie_player')?.getPlayerResponse?.() || window.ytInitialPlayerResponse;
+      const tracks = pr?.captions?.playerCaptionsTracklistRenderer?.captionTracks || [];
+      const t = tracks.find(x => /^en/.test(x.languageCode) && x.kind !== 'asr') || tracks.find(x => /^en/.test(x.languageCode)) || tracks[0];
+      if (t) {
+        const txt = await (await fetch(t.baseUrl + '&fmt=json3')).text();
+        if (txt) segs = (JSON.parse(txt).events || []).filter(e => e.segs)
+          .map(e => [e.tStartMs / 1000, e.segs.map(s => s.utf8).join('').replace(/\s+/g, ' ').trim()])
+          .filter(x => x[1]);
+      }
+    } catch (e) {}
+
+    // Way 2: open the "Show transcript" panel and read it off the page.
+    if (!segs.length) {
+      const sel = 'ytd-transcript-segment-renderer, transcript-segment-view-model';
+      const found = () => document.querySelectorAll(sel);
+      if (!found().length) {
+        document.querySelector('ytd-text-inline-expander #expand, #description #expand')?.click();
+        await sleep(600);
+        const btn = document.querySelector('ytd-video-description-transcript-section-renderer button') ||
+          [...document.querySelectorAll('button')].find(b => /transcript/i.test((b.getAttribute('aria-label') || '') + b.textContent));
+        btn?.click();
+        for (let i = 0; i < 40 && !found().length; i++) await sleep(300);
+        await sleep(800);
+      }
+      segs = [...found()].map(el => {
+        const lines = el.innerText.split('\n').map(s => s.trim()).filter(s => s && !/^\d+ (second|minute|hour)s?/.test(s));
+        const i = lines.findIndex(s => /^(\d+:)?\d+:\d{2}$/.test(s));
+        const ts = i >= 0 ? lines.splice(i, 1)[0] : '0:00';
+        return [toSec(ts), lines.join(' ')];
+      }).filter(x => x[1]);
+    }
+
+    if (!segs.length) { alert('No transcript found. This video may have no captions. You can also try "Paste and clean" on the Transcript Grabber page.'); return; }
+
+    const title = document.querySelector('h1.ytd-watch-metadata, h1.title')?.innerText?.trim() || document.title.replace(/ - YouTube$/, '');
+    document.getElementById('tg-box')?.remove();
+    const box = document.createElement('div');
+    box.id = 'tg-box';
+    box.style.cssText = 'position:fixed;inset:5% 5% auto auto;width:min(560px,90vw);height:80vh;z-index:99999;background:#fff;color:#111;border:1px solid #ccc;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.35);display:flex;flex-direction:column;font:14px system-ui,sans-serif;padding:12px;gap:8px';
+    box.innerHTML = '<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><b style="flex:1">Transcript</b>' +
+      '<label><input type="checkbox" id="tg-plain"> No timestamps</label>' +
+      '<button id="tg-ai">Copy for AI</button><button id="tg-copy">Copy</button><button id="tg-x">✕</button></div>' +
+      '<textarea id="tg-text" style="flex:1;width:100%;font:13px/1.5 monospace;padding:8px;border:1px solid #ddd;border-radius:6px;color:#111;background:#fafafa"></textarea>';
+    document.body.appendChild(box);
+    const ta = box.querySelector('#tg-text');
+    const render = () => { ta.value = 'Video: ' + title + '\n' + location.href.split('&')[0] + '\n\n' + format(segs, box.querySelector('#tg-plain').checked); };
+    render();
+    const copy = async (txt, btn) => {
+      try { await navigator.clipboard.writeText(txt); } catch (e) { ta.value = txt; ta.select(); document.execCommand('copy'); }
+      const old = btn.textContent; btn.textContent = 'Copied ✓'; setTimeout(() => btn.textContent = old, 1500);
+    };
+    box.querySelector('#tg-plain').onchange = render;
+    box.querySelector('#tg-copy').onclick = e => copy(ta.value, e.target);
+    box.querySelector('#tg-ai').onclick = e => copy(PROMPT + ta.value, e.target);
+    box.querySelector('#tg-x').onclick = () => box.remove();
+  })();
+}
+document.getElementById('bm').href = 'javascript:' + encodeURIComponent(
+  '(' + grabTranscript.toString().replace("'__PROMPT__'", JSON.stringify(AI_PROMPT)) + ')()');
+document.getElementById('bm').addEventListener('click', e => {
+  e.preventDefault();
+  alert('Drag this button to your bookmarks bar, then click it while you are on a YouTube video.');
+});
+
+// ---------- Paste and clean ----------
+function stamp(s) {
+  s = Math.floor(s);
+  return Math.floor(s / 3600) + ':' + String(Math.floor(s % 3600 / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0');
+}
+function toSec(t) {
+  t = t.replace(',', '.');
+  return t.split(':').reduce((a, b) => a * 60 + parseFloat(b), 0);
+}
+
+// Handles YouTube's transcript panel (timestamp line, then text), .vtt and .srt.
+function parse(raw) {
+  const lines = raw.replace(/\r/g, '').split('\n').map(s => s.trim());
+  const segs = [];
+  let cur = null, last = '';
+  for (const line of lines) {
+    if (!line || /^WEBVTT|^Kind:|^Language:|^NOTE\b/.test(line) || /^\d+$/.test(line)) continue;
+    if (/^\d+ (second|minute|hour)s?/i.test(line)) continue;           // screen-reader labels
+    if (/^Chapter \d+|^Transcript$|^Search in video$|^Follow along/i.test(line)) continue;
+    const cue = line.match(/^((?:\d+:)?\d+:\d+(?:[.,]\d+)?)\s*-->/);   // vtt / srt cue line
+    if (cue) { cur = toSec(cue[1]); continue; }
+    const ts = line.match(/^((?:\d+:)?\d{1,2}:\d{2})(?:\s+(.*))?$/);   // panel timestamp
+    if (ts) { cur = toSec(ts[1]); if (ts[2]) push(ts[2]); continue; }
+    push(line);
+  }
+  function push(t) {
+    t = t.replace(/<[^>]+>/g, '').replace(/&gt;/g, '>').replace(/&amp;/g, '&').trim();
+    if (t && t !== last) { segs.push([cur || 0, t]); last = t; }
+  }
+  return segs;
+}
+
+function format(segs, plain) {
+  if (plain) return segs.map(x => x[1]).join(' ');
+  const b = {};
+  segs.forEach(([s, t]) => { const k = Math.floor(s / 300); (b[k] = b[k] || []).push(t); });
+  return Object.keys(b).map(Number).sort((x, y) => x - y)
+    .map(k => '[' + stamp(k * 300) + ']\n' + b[k].join(' ')).join('\n\n');
+}
+
+const $ = id => document.getElementById(id);
+$('clean').onclick = () => {
+  const segs = parse($('input').value);
+  if (!segs.length) { $('status').textContent = 'Nothing to clean. Paste a transcript first.'; return; }
+  const plain = document.querySelector('input[name=mode]:checked').value === 'plain';
+  $('output').value = ($('prompt').checked ? AI_PROMPT : '') + format(segs, plain);
+  const words = $('output').value.split(/\s+/).length;
+  $('status').textContent = 'Done: about ' + words.toLocaleString() + ' words.';
+};
+$('copy').onclick = async () => {
+  if (!$('output').value) $('clean').click();
+  try { await navigator.clipboard.writeText($('output').value); }
+  catch (e) { $('output').select(); document.execCommand('copy'); }
+  $('status').textContent = 'Copied ✓';
+};
+</script>
+</body>
+</html>
