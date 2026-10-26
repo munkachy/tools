@@ -2,22 +2,56 @@
      It reads https://munkachy.github.io/tools/newspaper/issues.json, so new issues appear without changing this code. -->
 <div id="sbh-paper"></div>
 <style>
-#sbh-paper{--sbh-ink:#1d2433;--sbh-muted:#5b6475;--sbh-line:#d9dde4;--sbh-accent:#7a1f2b;width:100%;max-width:1400px;margin:0 auto;font-family:inherit;color:var(--sbh-ink);box-sizing:border-box}
+#sbh-paper{--sbh-ink:#1d2433;--sbh-muted:#5b6475;--sbh-line:#d9dde4;--sbh-soft:#f4f5f7;--sbh-accent:#7a1f2b;width:100%;max-width:1400px;margin:0 auto;font-family:inherit;color:var(--sbh-ink);box-sizing:border-box;scroll-margin-top:90px}
 #sbh-paper *{box-sizing:border-box}
 #sbh-paper .sbh-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px;margin:0 0 16px}
-#sbh-paper .sbh-title{margin:0;font-size:clamp(20px,3vw,30px);line-height:1.2}
+#sbh-paper .sbh-title{margin:0;font-size:clamp(22px,3vw,32px);line-height:1.2}
 #sbh-paper .sbh-sub{color:var(--sbh-muted);font-size:15px}
 #sbh-paper .sbh-actions{display:flex;flex-wrap:wrap;gap:8px}
 #sbh-paper .sbh-btn{appearance:none;border:1px solid var(--sbh-line);background:#fff;color:var(--sbh-ink);padding:8px 14px;border-radius:6px;font:inherit;font-size:14px;cursor:pointer;text-decoration:none;line-height:1.2}
 #sbh-paper .sbh-btn:hover{border-color:var(--sbh-accent);color:var(--sbh-accent)}
+#sbh-paper .sbh-tabs{display:flex;gap:0;margin:0 0 16px;border:1px solid var(--sbh-line);border-radius:8px;overflow:hidden;width:100%;max-width:520px}
+#sbh-paper .sbh-tab{flex:1;appearance:none;border:0;background:#fff;color:var(--sbh-ink);padding:12px 10px;font:inherit;font-size:15px;cursor:pointer;line-height:1.2}
+#sbh-paper .sbh-tab+.sbh-tab{border-left:1px solid var(--sbh-line)}
+#sbh-paper .sbh-tab[aria-selected=true]{background:var(--sbh-accent);color:#fff;font-weight:600}
+#sbh-paper .sbh-toc{background:var(--sbh-soft);border:1px solid var(--sbh-line);border-radius:8px;padding:4px 18px;margin:0 0 24px}
+#sbh-paper .sbh-toc summary{cursor:pointer;font-weight:700;font-size:18px;padding:12px 0;list-style-position:inside}
+#sbh-paper .sbh-toc-cols{columns:2 300px;column-gap:32px;padding-bottom:12px}
+#sbh-paper .sbh-toc-page{break-inside:avoid;margin:0 0 12px}
+#sbh-paper .sbh-toc-page h4{margin:0 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--sbh-muted)}
+#sbh-paper .sbh-toc-page ul{list-style:none;margin:0;padding:0}
+#sbh-paper .sbh-toc-page li{margin:0}
+#sbh-paper .sbh-toc-link{appearance:none;border:0;background:none;padding:5px 0;font:inherit;font-size:16px;color:var(--sbh-ink);text-align:left;cursor:pointer;line-height:1.35}
+#sbh-paper .sbh-toc-link:hover{color:var(--sbh-accent);text-decoration:underline}
+#sbh-paper .sbh-toc-link small{color:var(--sbh-muted);font-size:13px}
 #sbh-paper .sbh-pages{display:flex;flex-direction:column;gap:20px}
 #sbh-paper .sbh-page{display:block;width:100%;padding:0;border:0;background:#fff;cursor:zoom-in;box-shadow:0 1px 3px rgba(0,0,0,.12),0 6px 20px rgba(0,0,0,.08)}
-#sbh-paper .sbh-page img{display:block;width:100%;height:auto;aspect-ratio:990/1638;background:#f2f3f5}
-#sbh-paper .sbh-archive{margin-top:40px;padding-top:20px;border-top:1px solid var(--sbh-line)}
-#sbh-paper .sbh-archive h3{margin:0 0 14px;font-size:20px}
+#sbh-paper .sbh-page img{display:block;width:100%;height:auto;background:#f2f3f5}
+#sbh-paper .sbh-read{max-width:720px;margin:0 auto}
+#sbh-paper .sbh-art{padding:8px 0 32px;margin:0 0 32px;border-bottom:1px solid var(--sbh-line);scroll-margin-top:90px}
+#sbh-paper .sbh-kicker{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--sbh-accent);font-weight:600}
+#sbh-paper .sbh-art h3{margin:6px 0 6px;font-size:clamp(26px,4vw,36px);line-height:1.15}
+#sbh-paper .sbh-deck{margin:0 0 6px;font-size:19px;color:var(--sbh-muted)}
+#sbh-paper .sbh-by{margin:0 0 18px;font-size:15px;font-weight:600}
+#sbh-paper .sbh-art p{font-size:18px;line-height:1.65;margin:0 0 1em}
+#sbh-paper .sbh-art p a{color:var(--sbh-accent)}
+#sbh-paper .sbh-art h5{margin:1.6em 0 .6em;font-size:15px;text-transform:uppercase;letter-spacing:.05em}
+#sbh-paper .sbh-fig{margin:8px 0 22px}
+#sbh-paper .sbh-fig.small{max-width:320px}
+#sbh-paper .sbh-fig img{display:block;width:auto;max-width:100%;height:auto;cursor:zoom-in;background:#f2f3f5}
+#sbh-paper .sbh-fig figcaption{font-size:14px;color:var(--sbh-muted);margin-top:6px;line-height:1.45}
+#sbh-paper .sbh-gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:8px 0 8px}
+#sbh-paper .sbh-gal img{display:block;width:100%;height:220px;object-fit:cover;cursor:zoom-in;background:#f2f3f5}
+#sbh-paper .sbh-box{background:var(--sbh-soft);border:1px solid var(--sbh-line);border-radius:8px;padding:16px 20px;margin:8px 0 22px}
+#sbh-paper .sbh-box h5{margin:0 0 8px}
+#sbh-paper .sbh-box ol{margin:0;padding-left:1.6em;font-size:16px;line-height:1.7}
+#sbh-paper .sbh-art-nav{display:flex;flex-wrap:wrap;gap:8px}
+#sbh-paper .sbh-archive{margin-top:40px;padding-top:20px;border-top:1px solid var(--sbh-line);scroll-margin-top:90px}
+#sbh-paper .sbh-archive h3{margin:0 0 6px;font-size:22px}
+#sbh-paper .sbh-archive>p{margin:0 0 14px;color:var(--sbh-muted)}
 #sbh-paper .sbh-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:16px}
 #sbh-paper .sbh-issue{appearance:none;border:0;background:none;padding:0;text-align:left;cursor:pointer;font:inherit;color:inherit}
-#sbh-paper .sbh-issue img{display:block;width:100%;aspect-ratio:990/1638;object-fit:cover;border:1px solid var(--sbh-line);transition:transform .15s}
+#sbh-paper .sbh-issue img{display:block;width:100%;aspect-ratio:3/4;object-fit:contain;background:var(--sbh-soft);border:1px solid var(--sbh-line);transition:transform .15s}
 #sbh-paper .sbh-issue:hover img{transform:translateY(-2px)}
 #sbh-paper .sbh-issue span{display:block;margin-top:6px;font-size:14px}
 #sbh-paper .sbh-issue[aria-current] span{font-weight:700;color:var(--sbh-accent)}
@@ -28,60 +62,140 @@
 .sbh-lb.zoom img{max-width:none;width:200%;cursor:zoom-out}
 .sbh-lb .sbh-ctl{position:fixed;top:12px;right:12px;display:flex;gap:8px;z-index:1}
 .sbh-lb button{appearance:none;border:0;background:rgba(255,255,255,.92);color:#111;width:44px;height:44px;border-radius:50%;font-size:22px;line-height:44px;cursor:pointer;padding:0}
-.sbh-lb .sbh-count{position:fixed;left:12px;top:12px;color:#fff;font:14px/44px system-ui,sans-serif;z-index:1}
-@media (max-width:600px){#sbh-paper .sbh-pages{gap:12px}.sbh-lb.zoom img{width:250%}}
+.sbh-lb .sbh-count{position:fixed;left:12px;top:12px;color:#fff;font:14px/44px system-ui,sans-serif;z-index:1;text-shadow:0 1px 3px #000}
+@media (max-width:600px){#sbh-paper .sbh-pages{gap:12px}#sbh-paper .sbh-art p{font-size:17px}#sbh-paper .sbh-fig.small{max-width:240px}#sbh-paper .sbh-gal{grid-template-columns:1fr 1fr}#sbh-paper .sbh-gal img{height:160px}.sbh-lb.zoom img{width:250%}}
 </style>
 <script>
 (function(){
   var BASE='https://munkachy.github.io/tools/newspaper/';
   var root=document.getElementById('sbh-paper');
-  var issues=[],current=null,lb,lbImg,lbCount,idx=0;
+  var issues=[],current=null,articles=null,mode='pages',lb,lbImg,lbCount,lbList=[],idx=0;
 
   function el(tag,attrs,html){var e=document.createElement(tag);for(var k in attrs)e.setAttribute(k,attrs[k]);if(html!=null)e.innerHTML=html;return e}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function src(issue,n,size){return BASE+issue.id+'/page-'+n+(size?'-'+size:'')+'.jpg'}
+  function pageList(){var a=[];for(var n=1;n<=current.pages;n++)a.push(src(current,n));return a}
+  function scrollTo(node,jump){if(node)node.scrollIntoView({behavior:jump?'auto':'smooth',block:'start'})}
 
-  function render(issue,scroll){
-    current=issue;root.innerHTML='';
+  function load(issue,scroll){
+    current=issue;articles=null;mode='pages';render(scroll);
+    if(issue.articles)fetch(BASE+issue.id+'/articles.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(a){if(current===issue){articles=a;render(false)}}).catch(function(){});
+  }
+
+  function render(scroll){
+    var issue=current;root.innerHTML='';
     var head=el('div',{'class':'sbh-head'});
     var t=el('div');t.appendChild(el('h2',{'class':'sbh-title'},'St. Bernard Happenings'));
-    t.appendChild(el('div',{'class':'sbh-sub'},issue.title+' &middot; tap a page to enlarge'));
+    t.appendChild(el('div',{'class':'sbh-sub'},esc(issue.title)+(issue===issues[0]?' &middot; current issue':' &middot; from the archive')));
     head.appendChild(t);
     var act=el('div',{'class':'sbh-actions'});
+    if(issue!==issues[0]){var cur=el('button',{'class':'sbh-btn',type:'button'},'&larr; Current issue');cur.onclick=function(){load(issues[0],true)};act.appendChild(cur)}
     if(issue.pdf)act.appendChild(el('a',{'class':'sbh-btn',href:BASE+issue.id+'/'+issue.pdf,target:'_blank',rel:'noopener'},'Download PDF'));
-    if(issues.length>1){var b=el('button',{'class':'sbh-btn',type:'button'},'Past issues');b.onclick=function(){root.querySelector('.sbh-archive').scrollIntoView({behavior:'smooth'})};act.appendChild(b)}
+    var pb=el('button',{'class':'sbh-btn',type:'button'},'Past issues');pb.onclick=function(){scrollTo(root.querySelector('.sbh-archive'))};act.appendChild(pb);
     head.appendChild(act);root.appendChild(head);
 
+    if(articles){
+      var tabs=el('div',{'class':'sbh-tabs',role:'tablist'});
+      [['pages','&#128240; Newspaper pages'],['read','&#128214; Read the articles']].forEach(function(m){
+        var b=el('button',{'class':'sbh-tab',type:'button',role:'tab','aria-selected':String(mode===m[0])},m[1]);
+        b.onclick=function(){if(mode!==m[0]){mode=m[0];render(false);scrollTo(root)}};tabs.appendChild(b);
+      });
+      root.appendChild(tabs);
+      root.appendChild(toc());
+    }
+    root.appendChild(mode==='read'&&articles?readView():pagesView());
+    root.appendChild(archive());
+    if(scroll)scrollTo(root);
+  }
+
+  function toc(){
+    var d=el('details',{'class':'sbh-toc'});d.open=true;
+    d.appendChild(el('summary',{},'In this issue'));
+    var cols=el('div',{'class':'sbh-toc-cols'}),byPage={};
+    articles.forEach(function(a){(byPage[a.page]=byPage[a.page]||[]).push(a)});
+    Object.keys(byPage).sort(function(a,b){return a-b}).forEach(function(p){
+      var g=el('div',{'class':'sbh-toc-page'});g.appendChild(el('h4',{},'Page '+p));
+      var ul=el('ul');
+      byPage[p].forEach(function(a){
+        var b=el('button',{'class':'sbh-toc-link',type:'button'},esc(a.title)+(a.byline?' <small>&middot; '+esc(a.byline)+'</small>':a.kind?' <small>&middot; '+esc(a.kind)+'</small>':''));
+        b.onclick=function(){openArticle(a.id)};
+        var li=el('li');li.appendChild(b);ul.appendChild(li);
+      });
+      g.appendChild(ul);cols.appendChild(g);
+    });
+    d.appendChild(cols);return d;
+  }
+  function openArticle(id){
+    if(mode!=='read'){mode='read';render(false)}
+    scrollTo(document.getElementById('sbh-a-'+id),true);
+  }
+
+  function pagesView(){
     var pages=el('div',{'class':'sbh-pages'});
-    for(var n=1;n<=issue.pages;n++)(function(n){
-      var btn=el('button',{'class':'sbh-page',type:'button','aria-label':'Enlarge page '+n});
-      btn.appendChild(el('img',{src:src(issue,n,1200),srcset:src(issue,n,1200)+' 1200w, '+src(issue,n)+' 2000w',sizes:'(max-width:1400px) 100vw, 1400px',alt:'St. Bernard Happenings, '+issue.title+', page '+n,loading:n<3?'eager':'lazy',decoding:'async'}));
-      btn.onclick=function(){open(n-1)};
+    for(var n=1;n<=current.pages;n++)(function(n){
+      var btn=el('button',{'class':'sbh-page',type:'button','aria-label':'Enlarge page '+n,id:'sbh-p-'+n});
+      btn.appendChild(el('img',{src:src(current,n,1200),srcset:src(current,n,1200)+' 1200w, '+src(current,n)+' 2000w',sizes:'(max-width:1400px) 100vw, 1400px',alt:'St. Bernard Happenings, '+current.title+', page '+n,width:current.w||990,height:current.h||1638,loading:n<3?'eager':'lazy',decoding:'async'}));
+      btn.onclick=function(){openLb(pageList(),n-1,'Page')};
       pages.appendChild(btn);
     })(n);
-    root.appendChild(pages);
+    return pages;
+  }
 
-    if(issues.length>1){
-      var arc=el('div',{'class':'sbh-archive'});arc.appendChild(el('h3',{},'Past issues'));
-      var grid=el('div',{'class':'sbh-grid'});
-      issues.forEach(function(is){
-        var b=el('button',{'class':'sbh-issue',type:'button'});
-        if(is===issue)b.setAttribute('aria-current','true');
-        b.appendChild(el('img',{src:BASE+is.id+'/thumb-1.jpg',alt:'',loading:'lazy'}));
-        b.appendChild(el('span',{},is.title));
-        b.onclick=function(){render(is,true)};
-        grid.appendChild(b);
+  function readView(){
+    var wrap=el('div',{'class':'sbh-read'}),dir=BASE+current.id+'/';
+    articles.forEach(function(a){
+      var art=el('article',{'class':'sbh-art',id:'sbh-a-'+a.id});
+      art.appendChild(el('div',{'class':'sbh-kicker'},'Page '+a.page+(a.kind?' &middot; '+esc(a.kind):'')));
+      art.appendChild(el('h3',{},esc(a.title)));
+      if(a.deck)art.appendChild(el('p',{'class':'sbh-deck'},esc(a.deck)));
+      if(a.byline)art.appendChild(el('p',{'class':'sbh-by'},'By '+esc(a.byline)));
+      a.body.forEach(function(b){
+        if(b.p!=null)art.appendChild(el('p',{},b.p));
+        else if(b.h)art.appendChild(el('h5',{},esc(b.h)));
+        else if(b.img){
+          var f=el('figure',{'class':'sbh-fig'+(b.small?' small':'')});
+          var im=el('img',{src:dir+b.img,alt:b.caption||'',loading:'lazy'});im.onclick=function(){openLb([dir+b.img],0,'Photo')};f.appendChild(im);
+          if(b.caption||b.credit)f.appendChild(el('figcaption',{},esc(b.caption||'')+(b.credit?' <em>('+esc(b.credit)+')</em>':'')));
+          art.appendChild(f);
+        }else if(b.gallery){
+          var g=el('div',{'class':'sbh-gal'}),list=b.gallery.map(function(s){return dir+s});
+          list.forEach(function(s,i){var im=el('img',{src:s,alt:'',loading:'lazy'});im.onclick=function(){openLb(list,i,'Photo')};g.appendChild(im)});
+          art.appendChild(g);if(b.credit)art.appendChild(el('p',{'class':'sbh-note'},'<small>'+esc(b.credit)+'</small>'));
+        }else if(b.box){
+          var bx=el('div',{'class':'sbh-box'});bx.appendChild(el('h5',{},esc(b.box)));
+          var ol=el('ol');b.ol.forEach(function(x){ol.appendChild(el('li',{},esc(x)))});bx.appendChild(ol);art.appendChild(bx);
+        }
       });
-      arc.appendChild(grid);root.appendChild(arc);
-    }
-    if(scroll)root.scrollIntoView({behavior:'smooth'});
+      var nav=el('div',{'class':'sbh-art-nav'});
+      var up=el('button',{'class':'sbh-btn',type:'button'},'&uarr; Back to contents');up.onclick=function(){scrollTo(root.querySelector('.sbh-toc'))};
+      var pg=el('button',{'class':'sbh-btn',type:'button'},'View on page '+a.page);pg.onclick=function(){mode='pages';render(false);scrollTo(document.getElementById('sbh-p-'+a.page),true)};
+      nav.appendChild(up);nav.appendChild(pg);art.appendChild(nav);
+      wrap.appendChild(art);
+    });
+    return wrap;
+  }
+
+  function archive(){
+    var arc=el('div',{'class':'sbh-archive'});arc.appendChild(el('h3',{},'Past issues'));
+    arc.appendChild(el('p',{},issues.length>1?'Tap a cover to read that issue.':'Earlier issues will appear here as new ones are published.'));
+    var grid=el('div',{'class':'sbh-grid'});
+    issues.forEach(function(is){
+      var b=el('button',{'class':'sbh-issue',type:'button'});
+      if(is===current)b.setAttribute('aria-current','true');
+      b.appendChild(el('img',{src:BASE+is.id+'/thumb-1.jpg',alt:'',loading:'lazy'}));
+      b.appendChild(el('span',{},esc(is.title)+(is===issues[0]?' (current)':'')));
+      b.onclick=function(){load(is,true)};
+      grid.appendChild(b);
+    });
+    arc.appendChild(grid);return arc;
   }
 
   function buildLb(){
     lb=el('div',{'class':'sbh-lb',role:'dialog','aria-modal':'true'});
     lbCount=el('div',{'class':'sbh-count'});
     var ctl=el('div',{'class':'sbh-ctl'});
-    var prev=el('button',{type:'button','aria-label':'Previous page'},'&#8249;');
-    var next=el('button',{type:'button','aria-label':'Next page'},'&#8250;');
+    var prev=el('button',{type:'button','aria-label':'Previous'},'&#8249;');
+    var next=el('button',{type:'button','aria-label':'Next'},'&#8250;');
     var close=el('button',{type:'button','aria-label':'Close'},'&times;');
     prev.onclick=function(){go(-1)};next.onclick=function(){go(1)};close.onclick=shut;
     ctl.appendChild(prev);ctl.appendChild(next);ctl.appendChild(close);
@@ -93,13 +207,14 @@
     lb.addEventListener('touchstart',function(e){x0=e.touches.length===1&&!lb.classList.contains('zoom')?e.touches[0].clientX:null},{passive:true});
     lb.addEventListener('touchend',function(e){if(x0==null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>60)go(dx<0?1:-1);x0=null});
   }
-  function show(){lbImg.src=src(current,idx+1);lbImg.alt='Page '+(idx+1);lbCount.textContent='Page '+(idx+1)+' of '+current.pages;lb.classList.remove('zoom');lb.scrollTop=0;lb.scrollLeft=0}
-  function open(i){if(!lb)buildLb();idx=i;show();lb.classList.add('open');document.documentElement.style.overflow='hidden'}
-  function go(d){idx=(idx+d+current.pages)%current.pages;show()}
+  var lbLabel='Page';
+  function show(){lbImg.src=lbList[idx];lbCount.textContent=lbList.length>1?lbLabel+' '+(idx+1)+' of '+lbList.length:'';lb.querySelector('.sbh-ctl').firstChild.style.display=lb.querySelector('.sbh-ctl').children[1].style.display=lbList.length>1?'':'none';lb.classList.remove('zoom');lb.scrollTop=0;lb.scrollLeft=0}
+  function openLb(list,i,label){if(!lb)buildLb();lbList=list;lbLabel=label;idx=i;show();lb.classList.add('open');document.documentElement.style.overflow='hidden'}
+  function go(d){if(lbList.length<2)return;idx=(idx+d+lbList.length)%lbList.length;show()}
   function shut(){lb.classList.remove('open');document.documentElement.style.overflow=''}
 
   fetch(BASE+'issues.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(list){
-    issues=list;if(!issues.length)throw 0;render(issues[0]);
+    issues=list;if(!issues.length)throw 0;load(issues[0],false);
   }).catch(function(){root.innerHTML='<p class="sbh-note">The newspaper could not be loaded right now. Please try again later.</p>'});
 })();
 </script>

@@ -1,3 +1,4 @@
 [
-  { "id": "2026-10", "title": "October 2026", "pages": 5, "pdf": "St_Bernard_Happenings_October_2026.pdf" }
+  {"id": "2026-10", "title": "October 2026", "pages": 5, "pdf": "St_Bernard_Happenings_October_2026.pdf", "articles": true, "w": 990, "h": 1638},
+  {"id": "2026-06", "title": "Summer 2026", "pages": 16, "pdf": "St_Bernard_Happenings_Summer_2026.pdf", "w": 792, "h": 990}
 ]
