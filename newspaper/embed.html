@@ -1,0 +1,105 @@
+<!-- St. Bernard Happenings viewer. Paste this whole block into an HTML/embed element.
+     It reads https://munkachy.github.io/tools/newspaper/issues.json, so new issues appear without changing this code. -->
+<div id="sbh-paper"></div>
+<style>
+#sbh-paper{--sbh-ink:#1d2433;--sbh-muted:#5b6475;--sbh-line:#d9dde4;--sbh-accent:#7a1f2b;width:100%;max-width:1400px;margin:0 auto;font-family:inherit;color:var(--sbh-ink);box-sizing:border-box}
+#sbh-paper *{box-sizing:border-box}
+#sbh-paper .sbh-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px;margin:0 0 16px}
+#sbh-paper .sbh-title{margin:0;font-size:clamp(20px,3vw,30px);line-height:1.2}
+#sbh-paper .sbh-sub{color:var(--sbh-muted);font-size:15px}
+#sbh-paper .sbh-actions{display:flex;flex-wrap:wrap;gap:8px}
+#sbh-paper .sbh-btn{appearance:none;border:1px solid var(--sbh-line);background:#fff;color:var(--sbh-ink);padding:8px 14px;border-radius:6px;font:inherit;font-size:14px;cursor:pointer;text-decoration:none;line-height:1.2}
+#sbh-paper .sbh-btn:hover{border-color:var(--sbh-accent);color:var(--sbh-accent)}
+#sbh-paper .sbh-pages{display:flex;flex-direction:column;gap:20px}
+#sbh-paper .sbh-page{display:block;width:100%;padding:0;border:0;background:#fff;cursor:zoom-in;box-shadow:0 1px 3px rgba(0,0,0,.12),0 6px 20px rgba(0,0,0,.08)}
+#sbh-paper .sbh-page img{display:block;width:100%;height:auto;aspect-ratio:990/1638;background:#f2f3f5}
+#sbh-paper .sbh-archive{margin-top:40px;padding-top:20px;border-top:1px solid var(--sbh-line)}
+#sbh-paper .sbh-archive h3{margin:0 0 14px;font-size:20px}
+#sbh-paper .sbh-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:16px}
+#sbh-paper .sbh-issue{appearance:none;border:0;background:none;padding:0;text-align:left;cursor:pointer;font:inherit;color:inherit}
+#sbh-paper .sbh-issue img{display:block;width:100%;aspect-ratio:990/1638;object-fit:cover;border:1px solid var(--sbh-line);transition:transform .15s}
+#sbh-paper .sbh-issue:hover img{transform:translateY(-2px)}
+#sbh-paper .sbh-issue span{display:block;margin-top:6px;font-size:14px}
+#sbh-paper .sbh-issue[aria-current] span{font-weight:700;color:var(--sbh-accent)}
+#sbh-paper .sbh-note{color:var(--sbh-muted)}
+.sbh-lb{position:fixed;inset:0;z-index:2147483000;background:rgba(10,12,16,.94);display:none;overflow:auto;-webkit-overflow-scrolling:touch}
+.sbh-lb.open{display:block}
+.sbh-lb img{display:block;margin:0 auto;width:100%;max-width:1100px;height:auto;cursor:zoom-in}
+.sbh-lb.zoom img{max-width:none;width:200%;cursor:zoom-out}
+.sbh-lb .sbh-ctl{position:fixed;top:12px;right:12px;display:flex;gap:8px;z-index:1}
+.sbh-lb button{appearance:none;border:0;background:rgba(255,255,255,.92);color:#111;width:44px;height:44px;border-radius:50%;font-size:22px;line-height:44px;cursor:pointer;padding:0}
+.sbh-lb .sbh-count{position:fixed;left:12px;top:12px;color:#fff;font:14px/44px system-ui,sans-serif;z-index:1}
+@media (max-width:600px){#sbh-paper .sbh-pages{gap:12px}.sbh-lb.zoom img{width:250%}}
+</style>
+<script>
+(function(){
+  var BASE='https://munkachy.github.io/tools/newspaper/';
+  var root=document.getElementById('sbh-paper');
+  var issues=[],current=null,lb,lbImg,lbCount,idx=0;
+
+  function el(tag,attrs,html){var e=document.createElement(tag);for(var k in attrs)e.setAttribute(k,attrs[k]);if(html!=null)e.innerHTML=html;return e}
+  function src(issue,n,size){return BASE+issue.id+'/page-'+n+(size?'-'+size:'')+'.jpg'}
+
+  function render(issue,scroll){
+    current=issue;root.innerHTML='';
+    var head=el('div',{'class':'sbh-head'});
+    var t=el('div');t.appendChild(el('h2',{'class':'sbh-title'},'St. Bernard Happenings'));
+    t.appendChild(el('div',{'class':'sbh-sub'},issue.title+' &middot; tap a page to enlarge'));
+    head.appendChild(t);
+    var act=el('div',{'class':'sbh-actions'});
+    if(issue.pdf)act.appendChild(el('a',{'class':'sbh-btn',href:BASE+issue.id+'/'+issue.pdf,target:'_blank',rel:'noopener'},'Download PDF'));
+    if(issues.length>1){var b=el('button',{'class':'sbh-btn',type:'button'},'Past issues');b.onclick=function(){root.querySelector('.sbh-archive').scrollIntoView({behavior:'smooth'})};act.appendChild(b)}
+    head.appendChild(act);root.appendChild(head);
+
+    var pages=el('div',{'class':'sbh-pages'});
+    for(var n=1;n<=issue.pages;n++)(function(n){
+      var btn=el('button',{'class':'sbh-page',type:'button','aria-label':'Enlarge page '+n});
+      btn.appendChild(el('img',{src:src(issue,n,1200),srcset:src(issue,n,1200)+' 1200w, '+src(issue,n)+' 2000w',sizes:'(max-width:1400px) 100vw, 1400px',alt:'St. Bernard Happenings, '+issue.title+', page '+n,loading:n<3?'eager':'lazy',decoding:'async'}));
+      btn.onclick=function(){open(n-1)};
+      pages.appendChild(btn);
+    })(n);
+    root.appendChild(pages);
+
+    if(issues.length>1){
+      var arc=el('div',{'class':'sbh-archive'});arc.appendChild(el('h3',{},'Past issues'));
+      var grid=el('div',{'class':'sbh-grid'});
+      issues.forEach(function(is){
+        var b=el('button',{'class':'sbh-issue',type:'button'});
+        if(is===issue)b.setAttribute('aria-current','true');
+        b.appendChild(el('img',{src:BASE+is.id+'/thumb-1.jpg',alt:'',loading:'lazy'}));
+        b.appendChild(el('span',{},is.title));
+        b.onclick=function(){render(is,true)};
+        grid.appendChild(b);
+      });
+      arc.appendChild(grid);root.appendChild(arc);
+    }
+    if(scroll)root.scrollIntoView({behavior:'smooth'});
+  }
+
+  function buildLb(){
+    lb=el('div',{'class':'sbh-lb',role:'dialog','aria-modal':'true'});
+    lbCount=el('div',{'class':'sbh-count'});
+    var ctl=el('div',{'class':'sbh-ctl'});
+    var prev=el('button',{type:'button','aria-label':'Previous page'},'&#8249;');
+    var next=el('button',{type:'button','aria-label':'Next page'},'&#8250;');
+    var close=el('button',{type:'button','aria-label':'Close'},'&times;');
+    prev.onclick=function(){go(-1)};next.onclick=function(){go(1)};close.onclick=shut;
+    ctl.appendChild(prev);ctl.appendChild(next);ctl.appendChild(close);
+    lbImg=el('img',{alt:''});lbImg.onclick=function(){lb.classList.toggle('zoom')};
+    lb.appendChild(lbCount);lb.appendChild(ctl);lb.appendChild(lbImg);
+    document.body.appendChild(lb);
+    document.addEventListener('keydown',function(e){if(!lb.classList.contains('open'))return;if(e.key==='Escape')shut();if(e.key==='ArrowRight')go(1);if(e.key==='ArrowLeft')go(-1)});
+    var x0=null;
+    lb.addEventListener('touchstart',function(e){x0=e.touches.length===1&&!lb.classList.contains('zoom')?e.touches[0].clientX:null},{passive:true});
+    lb.addEventListener('touchend',function(e){if(x0==null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>60)go(dx<0?1:-1);x0=null});
+  }
+  function show(){lbImg.src=src(current,idx+1);lbImg.alt='Page '+(idx+1);lbCount.textContent='Page '+(idx+1)+' of '+current.pages;lb.classList.remove('zoom');lb.scrollTop=0;lb.scrollLeft=0}
+  function open(i){if(!lb)buildLb();idx=i;show();lb.classList.add('open');document.documentElement.style.overflow='hidden'}
+  function go(d){idx=(idx+d+current.pages)%current.pages;show()}
+  function shut(){lb.classList.remove('open');document.documentElement.style.overflow=''}
+
+  fetch(BASE+'issues.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(list){
+    issues=list;if(!issues.length)throw 0;render(issues[0]);
+  }).catch(function(){root.innerHTML='<p class="sbh-note">The newspaper could not be loaded right now. Please try again later.</p>'});
+})();
+</script>
