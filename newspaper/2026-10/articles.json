@@ -1,354 +1,1793 @@
 [
-  {
-    "id": "state-of-the-school",
-    "page": 1,
-    "title": "State of the school",
-    "byline": "Anabelle Howze",
-    "body": [
-      {"p": "St. Bernard Preparatory School’s new leadership structure took shape over several years of conversations with families and others connected to the school. Their feedback highlighted a need for stronger communication, while school leaders saw opportunities for employees to work more closely together."},
-      {"p": "“Our goal is to work as a team; the Lord himself had a team of apostles,” said school President Fr. Paschal Pautler."},
-      {"p": "The restructuring introduces a vice president role dedicated to family engagement and public areas such as admissions and marketing. The headmaster will focus more directly on students, teachers and daily operations. According to Fr. Paschal, this division of responsibilities aims to provide stronger support for employees and foster better teamwork."},
-      {"p": "Fr. Paschal said the school also wants to build a closer partnership with families. In the Catholic tradition, parents are their children’s primary educators, and St. Bernard works alongside them to support each student’s growth."},
-      {"p": "These changes also support program growth. Fr. Paschal said leaders are working to strengthen academics and expand extracurricular opportunities. He cited the dorm proctor program as an example of growing student involvement in school life."},
-      {"p": "“This is not something we’ve done to them. It’s something we do with them,” he said."},
-      {"p": "Fr. Paschal stated that the school’s long-term priorities are to develop students in body, mind and spirit. This requires strong academics and opportunities in the arts and athletics. He added that maintaining the campus and ensuring financial stability are essential to sustain these efforts for future generations."},
-      {"p": "The restructure is meant to place people in roles where their strengths can best serve the school. The president acknowledged that changes to a familiar institution can raise questions, and said the abbot and board of directors unanimously supported the plan, including the addition of a vice president role."},
-      {"p": "Having spent more than over half his life at St. Bernard — beginning as a student — Fr. Paschal expressed optimism about the opportunity to advance the school’s mission through these changes."},
-      {"p": "The school’s mission remains grounded in the Benedictine community that established the monastery in 1891. Fr. Paschal said the monks’ vision of a community shaped by work, prayer and service continues to guide the school as it adapts over time."},
-      {"p": "“Our point was ultimately to be a city on a hill,” he said, “a witness of God’s love and presence in the world.”"}
+ {
+  "id": "state-of-the-school",
+  "page": 1,
+  "title": "State of the school",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "p": "St. Bernard Preparatory School’s new leadership structure took shape over several years of conversations with families and others connected to the school. Their feedback highlighted a need for stronger communication, while school leaders saw opportunities for employees to work more closely together."
+   },
+   {
+    "p": "“Our goal is to work as a team; the Lord himself had a team of apostles,” said school President Fr. Paschal Pautler."
+   },
+   {
+    "p": "The restructuring introduces a vice president role dedicated to family engagement and public areas such as admissions and marketing. The headmaster will focus more directly on students, teachers and daily operations. According to Fr. Paschal, this division of responsibilities aims to provide stronger support for employees and foster better teamwork."
+   },
+   {
+    "p": "Fr. Paschal said the school also wants to build a closer partnership with families. In the Catholic tradition, parents are their children’s primary educators, and St. Bernard works alongside them to support each student’s growth."
+   },
+   {
+    "p": "These changes also support program growth. Fr. Paschal said leaders are working to strengthen academics and expand extracurricular opportunities. He cited the dorm proctor program as an example of growing student involvement in school life."
+   },
+   {
+    "p": "“This is not something we’ve done to them. It’s something we do with them,” he said."
+   },
+   {
+    "p": "Fr. Paschal stated that the school’s long-term priorities are to develop students in body, mind and spirit. This requires strong academics and opportunities in the arts and athletics. He added that maintaining the campus and ensuring financial stability are essential to sustain these efforts for future generations."
+   },
+   {
+    "p": "The restructure is meant to place people in roles where their strengths can best serve the school. The president acknowledged that changes to a familiar institution can raise questions, and said the abbot and board of directors unanimously supported the plan, including the addition of a vice president role."
+   },
+   {
+    "p": "Having spent more than over half his life at St. Bernard — beginning as a student — Fr. Paschal expressed optimism about the opportunity to advance the school’s mission through these changes."
+   },
+   {
+    "p": "The school’s mission remains grounded in the Benedictine community that established the monastery in 1891. Fr. Paschal said the monks’ vision of a community shaped by work, prayer and service continues to guide the school as it adapts over time."
+   },
+   {
+    "p": "“Our point was ultimately to be a city on a hill,” he said, “a witness of God’s love and presence in the world.”"
+   }
+  ]
+ },
+ {
+  "id": "balancing-sacred-secular",
+  "page": 1,
+  "title": "Balancing the sacred and secular",
+  "deck": "Abbot Brendan John Seipel to lead St. Bernard Abbey",
+  "byline": "Anabelle Howze and Tom Mayer",
+  "body": [
+   {
+    "img": "photos/p1-abbot-office.jpg",
+    "caption": "Abbot Brendan John Seipel is at work in his office soon after his announcement as St. Bernard Abbey’s 11th abbot.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "When the Right Reverend Brendan John Seipel was elected as St. Bernard Abbey’s 11th abbot July 29, he knew his directive was clear: Seek first the kingdom of God. And it is that internal command, he said, that will guide him as he shepherds and balances the duties of an office responsible for both the sacred and secular needs of the monastic community in Cullman, Alabama."
+   },
+   {
+    "p": "“The role of the abbot is interesting because, unlike most leadership roles, the spiritual and temporal are so intertwined,” Abbot Brendan said. “I think the abbots I’ve seen have done an excellent job of blending those two, and I hope to do that as well.”"
+   },
+   {
+    "p": "Nothing will immediately change, he said. In his first months as the monastery’s leader, Abbot Brendan will meet with the monks and learn the office’s daily work before deciding on any changes to established routines. After all, he said, the monastery’s schedule is what keeps the community’s shared purpose at the center of each day, a purpose that even the newest novice can state: “To seek Christ.”"
+   },
+   {
+    "p": "“That ultimately has to be the reasoning behind, in a certain sense, everything. Every decision, everything we do,” Abbot Brendan said."
+   },
+   {
+    "h": "A responsibility rooted in service"
+   },
+   {
+    "p": "Abbot Brendan has served the St. Bernard community for 24 years in various roles, including guest master, director of the retreat center, director of the abbey farm, member of the senior council, subprior and prior. While these positions gave him administrative leadership experience, he noted that much of his preparation came from years of living in the community, observing and learning. His decade at the retreat center, however, stands out."
+   },
+   {
+    "p": "Serving as guest master and retreat center director showed that leadership is often expressed as service, the abbot said. While caring for guests required some administrative skills, being attentive to others’ needs mattered even more."
+   },
+   {
+    "p": "“That experience taught me what it means to serve,” he said. “If you’re a guest master or retreat center director, that is pure service.”"
+   },
+   {
+    "p": "He brings the same understanding to his role as abbot."
+   },
+   {
+    "p": "Abbot Brendan said that providing stability, along with ensuring that monks have the resources necessary to live their vocation, are among his most important responsibilities. Citing the Rule of St. Benedict, he stated that an abbot is called to seek the welfare of the monks rather than his own benefit."
+   },
+   {
+    "p": "Above all, his hopes to support the monks in their vocation extend to the wider responsibilities that accompany the office. “To the extent that you lead, you serve,” he said. “It’s really a servant’s role in many, many ways.”"
+   },
+   {
+    "img": "photos/p1-monks.jpg",
+    "caption": "The monks of St. Bernard Abbey and the Diocese of Birmingham welcome Abbot Brendan John Seipel as the Cullman, Alabama, monastery’s new abbot."
+   },
+   {
+    "h": "An unusual path to the abbacy"
+   },
+   {
+    "p": "Abbot Brendan’s election represents a notable moment in the history of St. Bernard — and much of the Roman Catholic world. He was elected abbot before he was ordained a priest, a situation permitted by a 2022 rescript issued by Pope Francis. This directive allows non-ordained members of clerical religious institutes to serve as major superiors with approval from the Dicastery for Institutes of Consecrated Life."
+   },
+   {
+    "p": "His election and Vatican approval, Abbot Brendan noted, was a humbling experience."
+   },
+   {
+    "p": "Although the offices of abbot and priest are distinct, he noted that their roles can become closely intertwined, especially when an abbot serves as the spiritual father of a monastic community. Already assuming the role of abbot, which became effective upon his election, and ahead of his tentative ordination date next year, Abbot Brendan looks forward to one day serving the sacramental needs of the community as a priest by celebrating Mass, anointing the sick and presiding at funerals."
+   },
+   {
+    "p": "These unusual circumstances, he said, have deepened his appreciation for the historical significance of his election. Abbot Brendan follows Abbot Isaac Murphy, elected abbot of Saint Anselm Abbey in Manchester, New Hampshire, in 2024, as one of the first non-ordained Benedictine abbots in modern American history. While exceptional in recent centuries, this is not without precedent in the Church’s long monastic tradition. Saint Benedict is generally believed not to have been a priest, and in the early centuries of Benedictine monasticism, priestly ordination was not a requirement for serving as abbot."
+   },
+   {
+    "p": "“If I mess this up, they won’t do it again for a long time,” he said with a laugh, describing the responsibility he feels for his election."
+   },
+   {
+    "img": "photos/p2-abbot-portrait.jpg",
+    "caption": "Abbot Brendan John Seipel",
+    "small": true
+   },
+   {
+    "p": "Recalling the day he learned he would be St. Bernard Abbey’s monastic leader, Abbot Brendan speaks less about plans for his tenure than about serving the community’s needs. He wanted to accept the role “one step at a time,” staying available to the community and doing the work of God."
+   },
+   {
+    "p": "That simple acceptance characterizes the monk who has spent a life in service. During the election period, a visiting monk assisting with the process asked then-Prior Brendan what plans and goals he had for leading the abbey. When he said he had none, the surprised monk said, “You should be elected abbot.” Brendan took the exchange as a reminder that an abbot must leave room for God to act, rather than enter the office with a personal agenda."
+   },
+   {
+    "h": "Abbey and school, growing together"
+   },
+   {
+    "p": "Although Abbot Brendan does not articulate a predetermined agenda for his tenure, he acknowledges several areas of growth at St. Bernard. One is the future of St. Bernard Preparatory School."
+   },
+   {
+    "p": "He identified establishing the school’s budgetary stability as a key priority, alongside preserving strong academics and athletics. He also emphasized the ongoing need to provide a safe environment for every student, saying parents and prospective families should be able to trust that their children will be safe at St. Bernard."
+   },
+   {
+    "p": "However, he cautioned that the school and monastery should not be regarded as separate components of St. Bernard’s future."
+   },
+   {
+    "p": "“Our school and the abbey are so deeply connected, I don’t think either can thrive without the other,” he said."
+   },
+   {
+    "p": "As an example, he noted that increasing the number of monks teaching at the school can strengthen the institution, and our students bring a certain vibrancy and vitality to the campus."
+   },
+   {
+    "p": "Within the monastery, he views ongoing formation of current monks and the recruitment of new vocations as essential to strengthening the community for the future. Nevertheless, he resists presenting these priorities as a personal platform. He explained that electing an abbot is not like electing a political leader who enters office with a campaign platform. Instead, his responsibility is to listen, respond and care for what has been entrusted to him."
+   },
+   {
+    "h": "A passing guest"
+   },
+   {
+    "p": "Although Abbot Brendan, as the abbey’s 11th abbot, does not articulate a sweeping vision for his service, he did say that he hopes to leave St. Bernard in as good or better condition than he found it. He recalled a line from Psalm 39 that has taken on particular meaning for him: “In your house I am a passing guest, O Lord.”"
+   },
+   {
+    "p": "For Abbot Brendan, that stewardship means caring for the monks and monastery while helping the school thrive. He sees that work as part of something larger than any one leader’s tenure. “Ultimately, it’s God’s enterprise,” he said. “Each person is, and the whole St. Bernard is, ultimately in God’s hands.”"
+   },
+   {
+    "p": "Years ago, the late Brother Joseph Weiss shared an observation with him that Abbot Brendan has carried ever since. “Every place I look at St. Bernard, I see opportunity,” he was told."
+   },
+   {
+    "p": "After more than two decades in the monastery, and now entrusted with leading it, Abbot Brendan said he still sees the same thing."
+   },
+   {
+    "p": "“Pretty much every place you look,” he said, “you can see potential and opportunity.”"
+   },
+   {
+    "box": "Abbots of St. Bernard Abbey",
+    "ol": [
+     "Benedict Menges, O.S.B. — 1891–1904",
+     "Bernard Menges, O.S.B. — 1904–1933",
+     "Ambrose Reger, O.S.B. — 1933–1938",
+     "Boniface Seng, O.S.B. (first American-born SBA abbot) — 1939–1952",
+     "Bede Luibel, O.S.B. — 1952–1964",
+     "Gregory Roettger, O.S.B. — 1967–1972",
+     "Hilary Dreaper, O.S.B. — 1972–1987",
+     "Victor Clark, O.S.B. — 1987–1995",
+     "Cletus Meagher, O.S.B. — 1995–2019",
+     "Marcus Voss, O.S.B. — July 2019–October 2025",
+     "Brendan Seipel, O.S.B. — July 29, 2026–present"
     ]
-  },
-  {
-    "id": "balancing-sacred-secular",
-    "page": 1,
-    "title": "Balancing the sacred and secular",
-    "deck": "Abbot Brendan John Seipel to lead St. Bernard Abbey",
-    "byline": "Anabelle Howze and Tom Mayer",
-    "body": [
-      {"img": "photos/p1-abbot-office.jpg", "caption": "Abbot Brendan John Seipel is at work in his office soon after his announcement as St. Bernard Abbey’s 11th abbot.", "credit": "Photo by Tom Mayer"},
-      {"p": "When the Right Reverend Brendan John Seipel was elected as St. Bernard Abbey’s 11th abbot July 29, he knew his directive was clear: Seek first the kingdom of God. And it is that internal command, he said, that will guide him as he shepherds and balances the duties of an office responsible for both the sacred and secular needs of the monastic community in Cullman, Alabama."},
-      {"p": "“The role of the abbot is interesting because, unlike most leadership roles, the spiritual and temporal are so intertwined,” Abbot Brendan said. “I think the abbots I’ve seen have done an excellent job of blending those two, and I hope to do that as well.”"},
-      {"p": "Nothing will immediately change, he said. In his first months as the monastery’s leader, Abbot Brendan will meet with the monks and learn the office’s daily work before deciding on any changes to established routines. After all, he said, the monastery’s schedule is what keeps the community’s shared purpose at the center of each day, a purpose that even the newest novice can state: “To seek Christ.”"},
-      {"p": "“That ultimately has to be the reasoning behind, in a certain sense, everything. Every decision, everything we do,” Abbot Brendan said."},
-      {"h": "A responsibility rooted in service"},
-      {"p": "Abbot Brendan has served the St. Bernard community for 24 years in various roles, including guest master, director of the retreat center, director of the abbey farm, member of the senior council, subprior and prior. While these positions gave him administrative leadership experience, he noted that much of his preparation came from years of living in the community, observing and learning. His decade at the retreat center, however, stands out."},
-      {"p": "Serving as guest master and retreat center director showed that leadership is often expressed as service, the abbot said. While caring for guests required some administrative skills, being attentive to others’ needs mattered even more."},
-      {"p": "“That experience taught me what it means to serve,” he said. “If you’re a guest master or retreat center director, that is pure service.”"},
-      {"p": "He brings the same understanding to his role as abbot."},
-      {"p": "Abbot Brendan said that providing stability, along with ensuring that monks have the resources necessary to live their vocation, are among his most important responsibilities. Citing the Rule of St. Benedict, he stated that an abbot is called to seek the welfare of the monks rather than his own benefit."},
-      {"p": "Above all, his hopes to support the monks in their vocation extend to the wider responsibilities that accompany the office. “To the extent that you lead, you serve,” he said. “It’s really a servant’s role in many, many ways.”"},
-      {"img": "photos/p1-monks.jpg", "caption": "The monks of St. Bernard Abbey and the Diocese of Birmingham welcome Abbot Brendan John Seipel as the Cullman, Alabama, monastery’s new abbot."},
-      {"h": "An unusual path to the abbacy"},
-      {"p": "Abbot Brendan’s election represents a notable moment in the history of St. Bernard — and much of the Roman Catholic world. He was elected abbot before he was ordained a priest, a situation permitted by a 2022 rescript issued by Pope Francis. This directive allows non-ordained members of clerical religious institutes to serve as major superiors with approval from the Dicastery for Institutes of Consecrated Life."},
-      {"p": "His election and Vatican approval, Abbot Brendan noted, was a humbling experience."},
-      {"p": "Although the offices of abbot and priest are distinct, he noted that their roles can become closely intertwined, especially when an abbot serves as the spiritual father of a monastic community. Already assuming the role of abbot, which became effective upon his election, and ahead of his tentative ordination date next year, Abbot Brendan looks forward to one day serving the sacramental needs of the community as a priest by celebrating Mass, anointing the sick and presiding at funerals."},
-      {"p": "These unusual circumstances, he said, have deepened his appreciation for the historical significance of his election. Abbot Brendan follows Abbot Isaac Murphy, elected abbot of Saint Anselm Abbey in Manchester, New Hampshire, in 2024, as one of the first non-ordained Benedictine abbots in modern American history. While exceptional in recent centuries, this is not without precedent in the Church’s long monastic tradition. Saint Benedict is generally believed not to have been a priest, and in the early centuries of Benedictine monasticism, priestly ordination was not a requirement for serving as abbot."},
-      {"p": "“If I mess this up, they won’t do it again for a long time,” he said with a laugh, describing the responsibility he feels for his election."},
-      {"img": "photos/p2-abbot-portrait.jpg", "caption": "Abbot Brendan John Seipel", "small": true},
-      {"p": "Recalling the day he learned he would be St. Bernard Abbey’s monastic leader, Abbot Brendan speaks less about plans for his tenure than about serving the community’s needs. He wanted to accept the role “one step at a time,” staying available to the community and doing the work of God."},
-      {"p": "That simple acceptance characterizes the monk who has spent a life in service. During the election period, a visiting monk assisting with the process asked then-Prior Brendan what plans and goals he had for leading the abbey. When he said he had none, the surprised monk said, “You should be elected abbot.” Brendan took the exchange as a reminder that an abbot must leave room for God to act, rather than enter the office with a personal agenda."},
-      {"h": "Abbey and school, growing together"},
-      {"p": "Although Abbot Brendan does not articulate a predetermined agenda for his tenure, he acknowledges several areas of growth at St. Bernard. One is the future of St. Bernard Preparatory School."},
-      {"p": "He identified establishing the school’s budgetary stability as a key priority, alongside preserving strong academics and athletics. He also emphasized the ongoing need to provide a safe environment for every student, saying parents and prospective families should be able to trust that their children will be safe at St. Bernard."},
-      {"p": "However, he cautioned that the school and monastery should not be regarded as separate components of St. Bernard’s future."},
-      {"p": "“Our school and the abbey are so deeply connected, I don’t think either can thrive without the other,” he said."},
-      {"p": "As an example, he noted that increasing the number of monks teaching at the school can strengthen the institution, and our students bring a certain vibrancy and vitality to the campus."},
-      {"p": "Within the monastery, he views ongoing formation of current monks and the recruitment of new vocations as essential to strengthening the community for the future. Nevertheless, he resists presenting these priorities as a personal platform. He explained that electing an abbot is not like electing a political leader who enters office with a campaign platform. Instead, his responsibility is to listen, respond and care for what has been entrusted to him."},
-      {"h": "A passing guest"},
-      {"p": "Although Abbot Brendan, as the abbey’s 11th abbot, does not articulate a sweeping vision for his service, he did say that he hopes to leave St. Bernard in as good or better condition than he found it. He recalled a line from Psalm 39 that has taken on particular meaning for him: “In your house I am a passing guest, O Lord.”"},
-      {"p": "For Abbot Brendan, that stewardship means caring for the monks and monastery while helping the school thrive. He sees that work as part of something larger than any one leader’s tenure. “Ultimately, it’s God’s enterprise,” he said. “Each person is, and the whole St. Bernard is, ultimately in God’s hands.”"},
-      {"p": "Years ago, the late Brother Joseph Weiss shared an observation with him that Abbot Brendan has carried ever since. “Every place I look at St. Bernard, I see opportunity,” he was told."},
-      {"p": "After more than two decades in the monastery, and now entrusted with leading it, Abbot Brendan said he still sees the same thing."},
-      {"p": "“Pretty much every place you look,” he said, “you can see potential and opportunity.”"},
-      {"box": "Abbots of St. Bernard Abbey", "ol": [
-        "Benedict Menges, O.S.B. — 1891–1904",
-        "Bernard Menges, O.S.B. — 1904–1933",
-        "Ambrose Reger, O.S.B. — 1933–1938",
-        "Boniface Seng, O.S.B. (first American-born SBA abbot) — 1939–1952",
-        "Bede Luibel, O.S.B. — 1952–1964",
-        "Gregory Roettger, O.S.B. — 1967–1972",
-        "Hilary Dreaper, O.S.B. — 1972–1987",
-        "Victor Clark, O.S.B. — 1987–1995",
-        "Cletus Meagher, O.S.B. — 1995–2019",
-        "Marcus Voss, O.S.B. — July 2019–October 2025",
-        "Brendan Seipel, O.S.B. — July 29, 2026–present"
-      ]}
-    ]
-  },
-  {
-    "id": "us-278",
-    "page": 1,
-    "title": "St. Bernard seeks US 278 solution",
-    "byline": "Tom Mayer",
-    "body": [
-      {"p": "As state transportation officials develop plans to widen U.S. 278 near St. Bernard Preparatory School, St. Bernard monks, staff and families are pressing for a traffic signal at the campus entrance, saying heavier traffic makes entering and leaving the property increasingly difficult and potentially dangerous."},
-      {"p": "Father Paschal Pautler, school president, said the school wants a signal at St. Bernard Drive to provide a controlled way for motorists to cross traffic and turn onto the highway. He worries that the planned road improvements, without a signal, will leave drivers facing a worse problem even after construction."},
-      {"p": "“The biggest problem is that the traffic is so tight both ways on 278; it’s hard to exit the campus,” Fr. Paschal said."},
-      {"img": "photos/p1-us278.jpg", "caption": "A current rendering of US 278 widening shows no traffic light at the St. Bernard intersection.", "small": true},
-      {"p": "The Alabama Department of Transportation’s project calls for widening U.S. 278 from Fourth Avenue in Cullman toward East Point to five lanes, with two through lanes in each direction and a center turn lane. The project also includes replacing the bridge over Eightmile Creek with a wider structure to accommodate the additional lanes."},
-      {"p": "Fr. Paschal said he was disappointed to learn that the proposed design included no traffic signal at the St. Bernard entrance, despite initial graphics seeming to indicate one."},
-      {"p": "In addition to St. Bernard Preparatory School, St. Bernard Abbey also operates a busy retreat center and nationally recognized pilgrimage site, Ave Maria Grotto, on the same property. The Grotto is also inscribed on the National Register of Historic Places, the official list of the Nation’s historic places worthy of preservation. After encouraging community members to submit comments, Fr. Paschal said he was told the department had reviewed traffic data and determined the number of reported accidents did not warrant a signal."},
-      {"p": "“It’s disappointing,” Fr. Paschal said, “that past accidents at a two-lane intersection would be used to determine the safety of a newly designed five-lane intersection.”"},
-      {"p": "The concern is especially acute during morning and afternoon traffic, when vehicles back up on U.S. 278 and drivers leaving the school can feel pressured to pull into small gaps. Fr. Paschal said student drivers may be particularly susceptible to that pressure."},
-      {"p": "“When they look in their rearview mirror and see 20 cars behind them, they feel pressure to go,” he said. “And they’re more inclined to try and chance it.”"},
-      {"p": "Fr. Paschal also argued that a signal would not necessarily worsen congestion. He said motorists already stop voluntarily to let school traffic enter the highway, creating informal breaks in the flow of traffic."},
-      {"p": "“Instead of having to rely on catching somebody’s eye and then them stopping, it’s a safer way for them,” he said."},
-      {"p": "Fr. Paschal said he is grateful to continue talks with Alabama Department of Transportation officials and looks forward to a solution that addresses the safety of the many people — monks, students, parents, visitors, staff — entering and leaving the campus."}
-    ]
-  },
-  {
-    "id": "miles-from-home",
-    "page": 1,
-    "title": "Miles from home, memories for a lifetime",
-    "byline": "Anabelle Howze",
-    "body": [
-      {"img": "photos/p1-yulissa.jpg", "caption": "Yulissa Wang", "small": true},
-      {"p": "When Yulissa Wang first came to St. Bernard Preparatory School from China, she was surprised that so many students already knew her name. On her first day, classmates she had never met asked how she was doing."},
-      {"p": "It took Yulissa a while to feel comfortable. She was still learning English, so talking with others was sometimes hard. By spring break of her freshman year, she had become friends with a classmate named Sage. Four years later, they are still friends."},
-      {"p": "Living in the dorms was new for Yulissa. As an only child, she had never shared a home with other students. Now, she thinks of the other girls in the dorm as sisters. She also remembers a kind teacher from her first day of classes. When the teacher saw she was having trouble keeping up, she shared that she was new to St. Bernard, too and suggested they learn about the school together."},
-      {"p": "Over time, Yulissa found more ways to get involved at school. She runs cross-country and likes archery. Through the art club, she has helped younger kids with art projects. She also enjoys St. Bernard’s festivals, especially the food."},
-      {"p": "Some of her favorite memories are from her first days at school. Once, while talking with another student, she started speaking Chinese because she didn’t know the English words yet. Now, she laughs about it. She also remembers being confused when she was put on both teams for her first Blue and White Day, but played for both anyway. Considering college, Yulissa is interested in studying health science. She has begun looking at schools in Alabama, though her plans are still taking shape."},
-      {"p": "Yulissa says she will miss the people at St. Bernard and the campus she has grown to love. She values the personal attention she received from St. Bernard’s teachers and the friendships that made a place far from home feel like home."}
-    ]
-  },
-  {
-    "id": "new-ad",
-    "page": 2,
-    "title": "New A.D. brings winning experience",
-    "byline": "Tom Mayer",
-    "body": [
-      {"img": "photos/p2-howard.jpg", "caption": "St. Bernard Prep Athletic Director Daniel Howard.", "credit": "Photo by Tom Mayer"},
-      {"p": "At St. Bernard Preparatory School, new athletic director Daniel Howard is looking at the school’s sports program with the enthusiasm of someone who has spent most of his life around athletics."},
-      {"p": "For Howard, sports have been part of the picture for as long as he can remember."},
-      {"p": "“I’m just a sports fanatic,” he said. “Just all things sports.”"},
-      {"p": "Growing up in Tennessee, Howard played baseball, football and basketball and swam in high school. But his playing career changed during his junior year when he was diagnosed with stage three melanoma and became a St. Jude patient in Memphis."},
-      {"p": "He underwent four surgeries on his head and neck and about 13 months of chemotherapy. The treatment affected his eyesight and larynx, and he still cannot yell loudly."},
-      {"p": "Unable to continue competing at the level he once had, Howard found another way to remain involved in sports."},
-      {"p": "“I always wanted to still be in the sports world,” he said."},
-      {"p": "He earned bachelor’s degrees in business and sports management and later earned a master’s degree in sports management. He eventually played three years of semiprofessional football for the Pensacola Wolf Pack in Florida."},
-      {"p": "It was in Pensacola that Howard became involved with flag football, first as a player and then as a coach. He also served as a youth pastor, coaching a flag football team made up of young people from his church."},
-      {"p": "After getting married and having children, Howard moved back north and continued coaching his sons in baseball, football and basketball through the park and middle school systems."},
-      {"p": "His professional path eventually led him to Wallace State, where he first helped with baseball and later with cross country. He also spent three years as the college’s athletics coordinator, a position he describes as essentially being the system’s athletic director."},
-      {"p": "Then came flag football."},
-      {"p": "Wallace State introduced the sport last year, and Howard became its coach. He helped recruit players and spent considerable time on the road looking for athletes."},
-      {"p": "The result was a 26-0 season, a conference championship and Howard being named coach of the year. The team also defeated teams from Division I schools in tournament play and finished No. 19 in the nation in a ranking that included four-year schools."},
-      {"p": "Now Howard is trying to bring that experience to St. Bernard while continuing to coach part-time for Wallace State’s flag football team. Wallace State is 8-0 this season, he said."},
-      {"p": "At St. Bernard, one of his immediate goals is to build a flag football program."},
-      {"p": "The sport has already generated interest among students, Howard said, and students have been learning some of the fundamentals during physical education classes. Both boys and girls participate in PE flag football."},
-      {"p": "“I think it’s coming,” Howard said of the possibility of boys’ high school flag football eventually becoming more widely established."},
-      {"p": "For now, Alabama high school flag football is a girls’ sport, and Howard is working with the Alabama High School Athletic Association in bringing the sport to St. Bernard. He said the school can begin building a team before it becomes a varsity sport."},
-      {"p": "Howard sees flag football as a natural fit for St. Bernard, particularly because the school does not have a traditional football team."},
-      {"p": "But flag football is only one piece of his plans."},
-      {"p": "Because St. Bernard is a smaller school, Howard said he wants to concentrate on sports that can work with the student population, including individual and smaller-team sports."},
-      {"p": "Bowling is starting back this year. Tennis is also returning, and with a new coach. Archery is another part of the program, and Howard is becoming NASP certified so he can help with it. He also praised the new basketball coaching staff."},
-      {"p": "“We’re slowly growing,” Howard said of the school."},
-      {"p": "As enrollment grows, he said, the goal will be to have enough athletes for varsity, junior varsity and middle school teams in more sports."},
-      {"p": "Howard also sees winning as part of the growth strategy for SBP athletics."},
-      {"p": "“When you start winning as a team,” he said, students become more interested and want to be part of it."},
-      {"p": "But Howard is quick to point out that St. Bernard athletes face a challenge that differs from what he has encountered at other schools: academics come first."},
-      {"p": "Students at St. Bernard have a rigorous academic workload, and many athletes participate in multiple sports."},
-      {"p": "“It’s the first school I’ve been to where people are asking if they can not play sports,” he said, because they need to study."},
-      {"p": "So far, Howard said, the students have handled the demands well."},
-      {"img": "photos/p2-howard-fletcher.jpg", "caption": "St. Bernard Prep Athletic Director Daniel Howard, right, works with basketball coach Jimmy Fletcher.", "credit": "Photo by Tom Mayer"},
-      {"p": "The athletic director is also looking beyond teams and schedules to the physical facilities."},
-      {"p": "He is beginning with the basketball arena and hopes to upgrade the weight room, add a score table and make better use of televisions in the gym. He also wants to develop advertising opportunities that could help generate money for the athletic program."},
-      {"p": "Outside, Howard has plans for the tennis courts, and he wants to add outdoor basketball courts and possibly one or two pickleball courts."},
-      {"p": "Indoor pickleball is also in the works."},
-      {"p": "Howard discovered pickleball while living in Florida and quickly became a fan of the sport, particularly because people of different ages can play it. He hopes it eventually can become something that brings students, staff and even members of the St. Bernard community together."},
-      {"p": "He would like to see more events that involve the broader school community, including staff-student games, alumni activities and pep rallies."},
-      {"p": "Another project would connect the present athletic program with St. Bernard’s history."},
-      {"p": "Howard wants to decorate a wall near the gym with photographs and other reminders of the school’s athletic history, reaching back through the years of St. Bernard Prep and the college."},
-      {"p": "He envisions students walking down the hall and gaining an understanding of St. Bernard sports history dating to 1891."},
-      {"p": "For Howard, though, building an athletic program is about more than wins, facilities or new sports."},
-      {"p": "It is about getting students excited about athletics."},
-      {"p": "He describes himself as quiet and reserved away from sports. But put him around athletics and he becomes, in his words, “like a cheerleader out there.”"},
-      {"p": "The students notice that enthusiasm, he said."},
-      {"p": "“They see that I care,” Howard said."},
-      {"p": "And that may be the starting point for the program he hopes to build at St. Bernard."},
-      {"p": "There is plenty of work ahead. Howard has already begun identifying improvements that need to be made, from facilities and fundraising to recruiting and adding sports."},
-      {"p": "But he said he has been impressed by the administration and is looking forward to seeing what can be accomplished during a full year at St. Bernard."},
-      {"p": "“I’m just looking forward to a good year,” he said."},
-      {"p": "Howard is also bringing a family of his own into that work. He has three sons — 14-year-old twins and a 5-year-old — and describes life with them as a nonstop rotation of sports and activities."},
-      {"p": "For a new athletic director whose own path through sports began as a child, that sounds fitting."},
-      {"p": "And at St. Bernard, Howard is ready to see where the next season takes him."}
-    ]
-  },
-  {
-    "id": "christmas-at-the-grotto",
-    "page": 3,
-    "title": "Start the season with Christmas at the Grotto",
-    "byline": "Anabelle Howze",
-    "body": [
-      {"img": "photos/p3-grotto.jpg", "caption": "The Grotto is decorated with Christmas lights for last year’s Christmas at the Grotto celebration."},
-      {"p": "Christmas lights offer a new perspective on Ave Maria Grotto, even for longtime visitors. Illuminated after dark, Brother Joseph Zoettl’s miniature creations provide a peaceful setting to reflect on the meaning of Christmas."},
-      {"p": "Christmas at the Grotto is back for its eighth year in November. Director Roger Steele said the event started as a trial in 2019, when only half the park was open at night. With little time to get ready, the first display used mostly spotlights and a small set of lights."},
-      {"p": "Since then, it has become a holiday tradition for families and helps support the monastery. The event now lasts more than 20 nights, with live music and visits from Santa Claus on some evenings. Horse-drawn wagon rides are another special activity."},
-      {"p": "This year’s event begins Nov. 19 and runs on select dates through Dec. 27. You can find the full schedule, admission prices and special activities in the pinned event on Ave Maria Grotto’s Facebook page and at <a href=\"https://avemariagrotto.com\" target=\"_blank\" rel=\"noopener\">avemariagrotto.com</a>."},
-      {"p": "Steele said the Grotto adds to Cullman’s Christmas attractions by giving people a peaceful place to reflect on Christ’s birth. Visitors walk through the lit-up grounds, where Nativity displays help keep that meaning at the heart of the event."},
-      {"p": "“The spiritual, the peaceful aspect of what Christmas is all about, I think, is on full display here,” Steele said."},
-      {"p": "The displays change every year, so returning visitors always have something new to see. This season, Steele hopes to reopen an old trail built by Brother Joseph, letting guests walk through a wooded part of the Grotto. They plan to add Nativity scenes along the path, but preparations are still in progress."},
-      {"p": "For some families, visiting has become a tradition they enjoy several times each season. Steele said the event also brings guests from outside the area, including people who have come from Mobile just to see the lights."},
-      {"p": "He encourages anyone who has only seen the Grotto during the day to come back for an evening visit."},
-      {"p": "“If you’ve seen it during the day, seeing it at night is a completely different experience,” he said."}
-    ]
-  },
-  {
-    "id": "club-updates",
-    "page": 3,
-    "title": "Club updates",
-    "byline": "Anabelle Howze",
-    "body": [
-      {"p": "At St. Bernard Preparatory School, Saints Period gives students time to explore interests outside the classroom through activities that support their academic, spiritual and personal growth."},
-      {"p": "Fr. Dominic Lee’s chess club is all about enjoying the game. Students play in a relaxed setting and learn to appreciate the skill it takes. Guy Smith also runs a cards club."},
-      {"img": "photos/p3-chess.jpg", "caption": "Chess Club.", "credit": "Photo by Tom Mayer"},
-      {"p": "Students curious about the ancient world can join Br. Damien’s Latin club, where they explore Roman history and culture. Games introduce new topics and help build on what students learn in Latin class, giving them a better sense of the people who spoke the language."},
-      {"p": "In Mr. James Griffin’s Don Bosco Club, students gather for casual chats that give them space to reflect on their faith. Inspired by St. John Bosco’s historic ministry with youth, the club is entirely focused on helping students grow spiritually."},
-      {"p": "Students use Mrs. Ashley Hasenbein’s study hall to knock out daily assignments or wrap up their college applications. According to Mrs. Hasenbein, having this built-in time during the day takes the pressure off their evenings and keeps them on top of their schoolwork."},
-      {"img": "photos/p3-study-hall.jpg", "caption": "Hasenbein Study Hall.", "credit": "Photo by Anabelle Howze"},
-      {"p": "Dr. Craig Mann leads the Community Service Team, which has already started helping out. Students cleaned dining areas and helped set up the food tent for Bernard Blues &amp; BBQ. After the festival, they cleaned up and packed away signs."},
-      {"p": "“The St. Bernard Community Service Team was founded to do exactly as our name implies: to serve,” Mann said."},
-      {"p": "The team plans to help Curt’s Closet with its “Curt’s Christmas” program, which provides Christmas gifts and essentials to local children and families in need. In the spring, members hope to visit Fort Campbell, Kentucky, again with the USO, to thank soldiers. Local service projects will give more chances to help during the year."},
-      {"img": "photos/p3-service.jpg", "caption": "Community Service Club.", "credit": "Photo by Craig Mann"},
-      {"p": "Other Saints Period options include Mrs. Amber Watts’ art club, archery with Ms. Elicia Fallin, Garden Club with Mrs. Connie Briehn and the GLAD club led by Mrs. Valjean Cox."},
-      {"p": "These activities let students try things they enjoy and get more involved in the St. Bernard community."}
-    ]
-  },
-  {
-    "id": "bloomin-festival",
-    "page": 3,
-    "title": "Bloomin’ Festival: vendor applications are open",
-    "kind": "Announcement",
-    "body": [
-      {"p": "You are invited to apply as a vendor for the 43rd Annual Bloomin’ Festival, April 17–18, 2027, at St. Bernard Abbey &amp; Preparatory School in Cullman, Alabama. Join us for a weekend of arts, crafts and community!"},
-      {"p": "12′ × 12′ booths: $275 · Electricity: $25"},
-      {"p": "Apply today at <a href=\"https://www.bloominfestival.com\" target=\"_blank\" rel=\"noopener\">www.bloominfestival.com</a>. Questions? <a href=\"mailto:ahowze@stbernardprep.com\">ahowze@stbernardprep.com</a> · 256-255-5860"}
-    ]
-  },
-  {
-    "id": "sro",
-    "page": 4,
-    "title": "From lawman to farmer, musician and mentor, SRO finds a home",
-    "byline": "Tom Mayer",
-    "body": [
-      {"img": "photos/p4-students.jpg", "caption": "St. Bernard Preparatory School SRO Billy Kyle James gets some helping hands from a few of the students he jokes with during a lunch break Sept. 18, on the school campus.", "credit": "Photo by Tom Mayer"},
-      {"p": "When Officer Billy Kyle James first came to St. Bernard Preparatory School, he wasn’t sure he would stay."},
-      {"p": "He had spent years in law enforcement, including work as a road deputy, jail officer, probation and parole officer and supervisor. He had also already served as a school resource officer."},
-      {"p": "But being an SRO at a Catholic boarding school wasn’t simply a matter of wearing a badge and making sure the campus was secure. There were students to meet. Teachers to get to know. Parents, maintenance workers, cooks and monks to become familiar with."},
-      {"p": "And, most importantly, there were relationships to build."},
-      {"p": "“The first year I was here, I was ready to quit,” James said."},
-      {"p": "It wasn’t because he didn’t take the job seriously. Quite the opposite. But when students first saw him, many avoided him."},
-      {"p": "“And in my mind, I’m playing it out, OK, are they thinking I’m here to get them, catch them doing something?” he said. “And that was not it.”"},
-      {"p": "Over time, that changed. Today, James says he feels “part of the family now instead of an outcast.”"},
-      {"p": "That transformation may be the best way to understand James and the way he approaches his job at St. Bernard. His number one responsibility, he said, is simple."},
-      {"p": "“I’m here to make sure kids go home.”"},
-      {"h": "A career that found its way to St. Bernard"},
-      {"img": "photos/p4-james.jpg", "caption": "SRO Billy Kyle James", "small": true},
-      {"p": "James began his law enforcement career in 1986 as a reserve deputy in Cullman County. After six years, he was hired full time by the Sheriff’s Department, where he spent 13 years working in several capacities."},
-      {"p": "He later worked in community corrections and then as a school resource officer before accepting a position with the state as a probation and parole officer in 2006."},
-      {"p": "He spent two years in Jefferson County and then transferred to Winston County, where he worked for about 10 years, including several years as a supervisor."},
-      {"p": "After retiring from the state, James returned to school resource work. Eventually, an opening at St. Bernard came through former Cullman Chief of Police Kenny Culpepper."},
-      {"p": "James had told Culpepper that he was interested in an SRO position. Culpepper told him that there were currently no open positions."},
-      {"p": "“I told him to keep my name in,” James said."},
-      {"p": "The next morning, Culpepper called."},
-      {"p": "“We’ve got a position at St. Bernard,” James recalled him saying."},
-      {"p": "The arrangement allowed James to work for both the city and St. Bernard, and it also worked with his state retirement."},
-      {"p": "That was in 2022. James has been at St. Bernard ever since, sharing the weekly workload with the officer who put him at St. Bernard in the first place, Culpepper."},
-      {"h": "Learning to trust — and be trusted"},
-      {"p": "James’ first year at the school taught him something he hadn’t fully anticipated. A school resource officer can’t simply walk onto a campus and expect students to trust him because he is a police officer."},
-      {"p": "That trust has to be earned. At St. Bernard, two students helped get that process started."},
-      {"p": "One was a student named Peter, who later joined the Marine Corps. The other was Jack, a student James remembers as being particularly quiet."},
-      {"p": "James likes to joke with people, but he quickly learned that students didn’t always know when he was joking."},
-      {"p": "“Whenever I would try to joke with a student, they always took me serious,” he said."},
-      {"p": "With Jack, however, something changed after one of James’ jokes."},
-      {"p": "Later, during a pep rally, Jack walked over to where James was sitting by himself and started a conversation with him."},
-      {"p": "Afterward, James encountered Jack’s mother in the parking lot."},
-      {"p": "“She told me, ‘If Jack did that to you, that means he’s got confidence in you, because he doesn’t do that to just anybody,’” James said."},
-      {"p": "That mattered. So did the students who came after him."},
-      {"p": "There was Emily, a student who joked with James about having him sing the National Anthem at graduation. There were students he gave nicknames to. There were students who waved when they saw him."},
-      {"p": "Gradually, more students started talking to him."},
-      {"p": "For James, those small interactions became something much larger."},
-      {"p": "Every year at graduation, he gives a silver dollar to several seniors he has developed relationships with, getting their parents’ approval first. He also includes a card with a Bible verse reminding them to trust in the Lord."},
-      {"p": "One year, he gave out seven, and today, he keeps photographs of some of his favorite graduating classes."},
-      {"p": "He also still has a card and gift card given to him by students who interviewed him for the school newspaper."},
-      {"p": "“I still got the little gift card they gave me,” he said. “I never cashed it.”"},
-      {"p": "But the accompanying message meant so much to him that, he said, it nearly brought him to tears."},
-      {"p": "“It’s all about relationships,” James said."},
-      {"h": "The serious side of the badge"},
-      {"p": "The humor and relationships don’t diminish the seriousness with which James views his responsibility. School safety is always on his mind, and particularly the possibility of a school shooting."},
-      {"p": "He makes a point of being visible around campus. He watches entrances and different areas of the school, because he believes an officer’s presence can be an important deterrent."},
-      {"p": "He also pays attention to what he calls “false security.” Book bags left unattended, for example, concern him because of the possibility that something could be placed inside them. He believes classroom doors should remain closed and that students need to be trained to respond appropriately during an emergency."},
-      {"p": "James participates in training that prepares officers to respond to an active shooter. He has been through exercises where officers work as a team to clear buildings while dealing with the realities of an active-shooter scenario."},
-      {"p": "But his concern isn’t limited to what he would do as an officer."},
-      {"p": "He wants students to understand what they should do, too."},
-      {"p": "“Kids need to be trained on what to do in that situation,” he said."},
-      {"p": "His reason for taking that responsibility so personally is straightforward."},
-      {"p": "“I treat every one of these kids like they’re mine,” he said. “If that was my daughter here, I would treat her the same as I do with these kids, because these kids all have a special place in my heart.”"},
-      {"h": "Making friends across campus"},
-      {"p": "The relationships James has built aren’t limited to students."},
-      {"p": "“I’ve made some good friends,” he said of the faculty. “But I’m not the type of person that sticks with just faculty.”"},
-      {"p": "He makes friends with the maintenance workers. He makes friends with the cooks."},
-      {"p": "“I always say,” James said, “when you’re a resource officer, first thing you do is make friends with the cooks. Because they’re the ones cooking your food, and they will take care of you.”"},
-      {"p": "At St. Bernard, making friends also means getting to know the monks. That has produced some memorable moments."},
-      {"p": "During his first year, James was outside doing traffic duty when someone dressed in black and wearing a hoodie emerged from the woods."},
-      {"p": "He didn’t know the Benedictine monks yet, who are clothed in black habits with hoods."},
-      {"p": "“So, I addressed the situation,” he said. “I found out it was a monk.”"},
-      {"p": "Now, he has learned which monks he can joke with and which ones he should approach a little differently."},
-      {"p": "He calls many of them “brother,” partly because remembering names isn’t as easy as it used to be. He has learned that the priests should be addressed as fathers."},
-      {"p": "He also knows that one particular priest, St. Bernard Preparatry School president Fr. Paschal Pautler, has a sense of humor."},
-      {"p": "One day at a school Mass, James’ cellphone went off during Fr. Paschal’s homily."},
-      {"p": "James quickly left the vestibule, hoping nobody had heard it."},
-      {"p": "Fr. Paschal later told him he thought it was funny."},
-      {"p": "“I’m glad it was you and not a student,” he told James — especially since students are not allowed to use cell phones during school hours."},
-      {"p": "That’s another relationship James has come to appreciate."},
-      {"h": "A farmer, musician and artist"},
-      {"p": "Away from the school, James has plenty to keep him busy."},
-      {"p": "He owns a cattle farm in Cullman County with about 30 to 35 head of cattle. He spends much of the summer working in hay fields, and he and Culpepper work around that schedule when necessary."},
-      {"p": "He bought the farm after retiring from the state, using money he had been owed for vacation days to purchase cattle, tractors and other equipment."},
-      {"p": "“I love doing things, especially if it’s got a form of art,” he said."},
-      {"p": "That philosophy shows up in unexpected places."},
-      {"p": "James learned to play guitar as a youngster, teaching himself from chords his father drew out for him. He later learned to play piano after a friend showed him some things."},
-      {"p": "He still plays at St. Bernard when he gets the opportunity for a quick break."},
-      {"img": "photos/p4-piano.jpg", "caption": "Beyond protecting students on campus, St. Bernard Preparatory School SRO Billy Kyle James takes a break to entertain staff in the Admissions Building.", "credit": "Photo by Tom Mayer"},
-      {"p": "He also dabbles in oil painting. As a student at Wallace State Community College, he took an art class and eventually painted a portrait of his grandfather."},
-      {"p": "“It was just like him,” James said. “I was happy.”"},
-      {"p": "He has restored a 1966 Chevrolet truck, cutting and installing its wooden bed himself, painted parts of his own truck and tackled automobile repairs after watching instructional videos."},
-      {"p": "“If I watch it on YouTube and I realize I can’t fix it, I don’t even tackle it. I’ll pay somebody,” he said. “But nine times out of 10, I will ... fix it myself.”"},
-      {"h": "The road that started in third grade"},
-      {"p": "In some ways, James’ career began when he was a third-grader and a police officer visited his school."},
-      {"p": "“I thought it was so cool, and I thought, I’d like to do that,” he said."},
-      {"p": "Years later, after spending eight years out of school and working jobs that paid little, James decided to change direction."},
-      {"p": "He drove to Wallace State and walked inside."},
-      {"p": "“I said, ‘Tell me how to sign up,’” he recalled."},
-      {"p": "He did."},
-      {"p": "Two years later, he graduated from Wallace. He went on to Athens State University and earned an elementary teaching certificate. He was also pursuing a master’s degree at the University of Alabama before job responsibilities prevented him from completing it."},
-      {"p": "The path eventually brought him back to law enforcement, then to school resource work, and finally to St. Bernard."},
-      {"p": "There is a consistency to the way James describes all of it: If something interests him, he gives it a try."},
-      {"p": "Law enforcement. Farming. Guitar. Piano. Painting. Restoring a truck. Fixing things."},
-      {"p": "And now, being part of a school community — and part of a new family. James became a grandfather in January, an experience he says has changed his life."},
-      {"p": "Today, he also enjoys following hockey and has made friendships through the sport, including trips to watch games."},
-      {"p": "But on school days, his focus remains the same. He wants to be there."},
-      {"p": "He tries not to leave campus unless he has to. When he does have to be away, arrangements are made so the school remains covered, including close patrols by other officers when neither school resource officer can be present."},
-      {"p": "Because for James, being an SRO isn’t simply about being available when something goes wrong."},
-      {"p": "It is about being known before something goes wrong."},
-      {"p": "It is about a student feeling comfortable enough to walk over and start a conversation."},
-      {"p": "It is about a parent knowing who is watching over the campus."},
-      {"p": "It is about a cook, maintenance worker, teacher or monk knowing the officer who is there every day."},
-      {"p": "And it is about trust."},
-      {"p": "“That’s the important part of the job,” James said. “Developing that trust. Keeping kids and faculty safe. That’s my top priority.”"}
-    ]
-  },
-  {
-    "id": "blues-bbq",
-    "page": 5,
-    "title": "Bernard Blues & BBQ",
-    "kind": "Photo page",
-    "body": [
-      {"p": "Bernard Blues and BBQ brought people together on September 12-13 with live blues music, tasty barbecue and a welcoming atmosphere. Guests enjoyed great food and entertainment while celebrating the local community and browsing a beautiful artisan craft show. It was a great chance for everyone to meet up, connect and have fun."},
-      {"gallery": [
-        "photos/p5-bbq-01.jpg", "photos/p5-bbq-02.jpg", "photos/p5-bbq-03.jpg", "photos/p5-bbq-04.jpg",
-        "photos/p5-bbq-05.jpg", "photos/p5-bbq-06.jpg", "photos/p5-bbq-07.jpg", "photos/p5-bbq-08.jpg",
-        "photos/p5-bbq-09.jpg", "photos/p5-bbq-10.jpg", "photos/p5-bbq-11.jpg", "photos/p5-bbq-12.jpg"
-      ], "credit": "Photos by Anabelle Howze"}
-    ]
-  }
+   }
+  ]
+ },
+ {
+  "id": "us-278",
+  "page": 1,
+  "title": "St. Bernard seeks US 278 solution",
+  "byline": "Tom Mayer",
+  "body": [
+   {
+    "p": "As state transportation officials develop plans to widen U.S. 278 near St. Bernard Preparatory School, St. Bernard monks, staff and families are pressing for a traffic signal at the campus entrance, saying heavier traffic makes entering and leaving the property increasingly difficult and potentially dangerous."
+   },
+   {
+    "p": "Father Paschal Pautler, school president, said the school wants a signal at St. Bernard Drive to provide a controlled way for motorists to cross traffic and turn onto the highway. He worries that the planned road improvements, without a signal, will leave drivers facing a worse problem even after construction."
+   },
+   {
+    "p": "“The biggest problem is that the traffic is so tight both ways on 278; it’s hard to exit the campus,” Fr. Paschal said."
+   },
+   {
+    "img": "photos/p1-us278.jpg",
+    "caption": "A current rendering of US 278 widening shows no traffic light at the St. Bernard intersection.",
+    "small": true
+   },
+   {
+    "p": "The Alabama Department of Transportation’s project calls for widening U.S. 278 from Fourth Avenue in Cullman toward East Point to five lanes, with two through lanes in each direction and a center turn lane. The project also includes replacing the bridge over Eightmile Creek with a wider structure to accommodate the additional lanes."
+   },
+   {
+    "p": "Fr. Paschal said he was disappointed to learn that the proposed design included no traffic signal at the St. Bernard entrance, despite initial graphics seeming to indicate one."
+   },
+   {
+    "p": "In addition to St. Bernard Preparatory School, St. Bernard Abbey also operates a busy retreat center and nationally recognized pilgrimage site, Ave Maria Grotto, on the same property. The Grotto is also inscribed on the National Register of Historic Places, the official list of the Nation’s historic places worthy of preservation. After encouraging community members to submit comments, Fr. Paschal said he was told the department had reviewed traffic data and determined the number of reported accidents did not warrant a signal."
+   },
+   {
+    "p": "“It’s disappointing,” Fr. Paschal said, “that past accidents at a two-lane intersection would be used to determine the safety of a newly designed five-lane intersection.”"
+   },
+   {
+    "p": "The concern is especially acute during morning and afternoon traffic, when vehicles back up on U.S. 278 and drivers leaving the school can feel pressured to pull into small gaps. Fr. Paschal said student drivers may be particularly susceptible to that pressure."
+   },
+   {
+    "p": "“When they look in their rearview mirror and see 20 cars behind them, they feel pressure to go,” he said. “And they’re more inclined to try and chance it.”"
+   },
+   {
+    "p": "Fr. Paschal also argued that a signal would not necessarily worsen congestion. He said motorists already stop voluntarily to let school traffic enter the highway, creating informal breaks in the flow of traffic."
+   },
+   {
+    "p": "“Instead of having to rely on catching somebody’s eye and then them stopping, it’s a safer way for them,” he said."
+   },
+   {
+    "p": "Fr. Paschal said he is grateful to continue talks with Alabama Department of Transportation officials and looks forward to a solution that addresses the safety of the many people — monks, students, parents, visitors, staff — entering and leaving the campus."
+   }
+  ]
+ },
+ {
+  "id": "miles-from-home",
+  "page": 1,
+  "title": "Miles from home, memories for a lifetime",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "img": "photos/p1-yulissa.jpg",
+    "caption": "Yulissa Wang",
+    "small": true
+   },
+   {
+    "p": "When Yulissa Wang first came to St. Bernard Preparatory School from China, she was surprised that so many students already knew her name. On her first day, classmates she had never met asked how she was doing."
+   },
+   {
+    "p": "It took Yulissa a while to feel comfortable. She was still learning English, so talking with others was sometimes hard. By spring break of her freshman year, she had become friends with a classmate named Sage. Four years later, they are still friends."
+   },
+   {
+    "p": "Living in the dorms was new for Yulissa. As an only child, she had never shared a home with other students. Now, she thinks of the other girls in the dorm as sisters. She also remembers a kind teacher from her first day of classes. When the teacher saw she was having trouble keeping up, she shared that she was new to St. Bernard, too and suggested they learn about the school together."
+   },
+   {
+    "p": "Over time, Yulissa found more ways to get involved at school. She runs cross-country and likes archery. Through the art club, she has helped younger kids with art projects. She also enjoys St. Bernard’s festivals, especially the food."
+   },
+   {
+    "p": "Some of her favorite memories are from her first days at school. Once, while talking with another student, she started speaking Chinese because she didn’t know the English words yet. Now, she laughs about it. She also remembers being confused when she was put on both teams for her first Blue and White Day, but played for both anyway. Considering college, Yulissa is interested in studying health science. She has begun looking at schools in Alabama, though her plans are still taking shape."
+   },
+   {
+    "p": "Yulissa says she will miss the people at St. Bernard and the campus she has grown to love. She values the personal attention she received from St. Bernard’s teachers and the friendships that made a place far from home feel like home."
+   }
+  ]
+ },
+ {
+  "id": "new-ad",
+  "page": 2,
+  "title": "New A.D. brings winning experience",
+  "byline": "Tom Mayer",
+  "body": [
+   {
+    "img": "photos/p2-howard.jpg",
+    "caption": "St. Bernard Prep Athletic Director Daniel Howard.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "At St. Bernard Preparatory School, new athletic director Daniel Howard is looking at the school’s sports program with the enthusiasm of someone who has spent most of his life around athletics."
+   },
+   {
+    "p": "For Howard, sports have been part of the picture for as long as he can remember."
+   },
+   {
+    "p": "“I’m just a sports fanatic,” he said. “Just all things sports.”"
+   },
+   {
+    "p": "Growing up in Tennessee, Howard played baseball, football and basketball and swam in high school. But his playing career changed during his junior year when he was diagnosed with stage three melanoma and became a St. Jude patient in Memphis."
+   },
+   {
+    "p": "He underwent four surgeries on his head and neck and about 13 months of chemotherapy. The treatment affected his eyesight and larynx, and he still cannot yell loudly."
+   },
+   {
+    "p": "Unable to continue competing at the level he once had, Howard found another way to remain involved in sports."
+   },
+   {
+    "p": "“I always wanted to still be in the sports world,” he said."
+   },
+   {
+    "p": "He earned bachelor’s degrees in business and sports management and later earned a master’s degree in sports management. He eventually played three years of semiprofessional football for the Pensacola Wolf Pack in Florida."
+   },
+   {
+    "p": "It was in Pensacola that Howard became involved with flag football, first as a player and then as a coach. He also served as a youth pastor, coaching a flag football team made up of young people from his church."
+   },
+   {
+    "p": "After getting married and having children, Howard moved back north and continued coaching his sons in baseball, football and basketball through the park and middle school systems."
+   },
+   {
+    "p": "His professional path eventually led him to Wallace State, where he first helped with baseball and later with cross country. He also spent three years as the college’s athletics coordinator, a position he describes as essentially being the system’s athletic director."
+   },
+   {
+    "p": "Then came flag football."
+   },
+   {
+    "p": "Wallace State introduced the sport last year, and Howard became its coach. He helped recruit players and spent considerable time on the road looking for athletes."
+   },
+   {
+    "p": "The result was a 26-0 season, a conference championship and Howard being named coach of the year. The team also defeated teams from Division I schools in tournament play and finished No. 19 in the nation in a ranking that included four-year schools."
+   },
+   {
+    "p": "Now Howard is trying to bring that experience to St. Bernard while continuing to coach part-time for Wallace State’s flag football team. Wallace State is 8-0 this season, he said."
+   },
+   {
+    "p": "At St. Bernard, one of his immediate goals is to build a flag football program."
+   },
+   {
+    "p": "The sport has already generated interest among students, Howard said, and students have been learning some of the fundamentals during physical education classes. Both boys and girls participate in PE flag football."
+   },
+   {
+    "p": "“I think it’s coming,” Howard said of the possibility of boys’ high school flag football eventually becoming more widely established."
+   },
+   {
+    "p": "For now, Alabama high school flag football is a girls’ sport, and Howard is working with the Alabama High School Athletic Association in bringing the sport to St. Bernard. He said the school can begin building a team before it becomes a varsity sport."
+   },
+   {
+    "p": "Howard sees flag football as a natural fit for St. Bernard, particularly because the school does not have a traditional football team."
+   },
+   {
+    "p": "But flag football is only one piece of his plans."
+   },
+   {
+    "p": "Because St. Bernard is a smaller school, Howard said he wants to concentrate on sports that can work with the student population, including individual and smaller-team sports."
+   },
+   {
+    "p": "Bowling is starting back this year. Tennis is also returning, and with a new coach. Archery is another part of the program, and Howard is becoming NASP certified so he can help with it. He also praised the new basketball coaching staff."
+   },
+   {
+    "p": "“We’re slowly growing,” Howard said of the school."
+   },
+   {
+    "p": "As enrollment grows, he said, the goal will be to have enough athletes for varsity, junior varsity and middle school teams in more sports."
+   },
+   {
+    "p": "Howard also sees winning as part of the growth strategy for SBP athletics."
+   },
+   {
+    "p": "“When you start winning as a team,” he said, students become more interested and want to be part of it."
+   },
+   {
+    "p": "But Howard is quick to point out that St. Bernard athletes face a challenge that differs from what he has encountered at other schools: academics come first."
+   },
+   {
+    "p": "Students at St. Bernard have a rigorous academic workload, and many athletes participate in multiple sports."
+   },
+   {
+    "p": "“It’s the first school I’ve been to where people are asking if they can not play sports,” he said, because they need to study."
+   },
+   {
+    "p": "So far, Howard said, the students have handled the demands well."
+   },
+   {
+    "img": "photos/p2-howard-fletcher.jpg",
+    "caption": "St. Bernard Prep Athletic Director Daniel Howard, right, works with basketball coach Jimmy Fletcher.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "The athletic director is also looking beyond teams and schedules to the physical facilities."
+   },
+   {
+    "p": "He is beginning with the basketball arena and hopes to upgrade the weight room, add a score table and make better use of televisions in the gym. He also wants to develop advertising opportunities that could help generate money for the athletic program."
+   },
+   {
+    "p": "Outside, Howard has plans for the tennis courts, and he wants to add outdoor basketball courts and possibly one or two pickleball courts."
+   },
+   {
+    "p": "Indoor pickleball is also in the works."
+   },
+   {
+    "p": "Howard discovered pickleball while living in Florida and quickly became a fan of the sport, particularly because people of different ages can play it. He hopes it eventually can become something that brings students, staff and even members of the St. Bernard community together."
+   },
+   {
+    "p": "He would like to see more events that involve the broader school community, including staff-student games, alumni activities and pep rallies."
+   },
+   {
+    "p": "Another project would connect the present athletic program with St. Bernard’s history."
+   },
+   {
+    "p": "Howard wants to decorate a wall near the gym with photographs and other reminders of the school’s athletic history, reaching back through the years of St. Bernard Prep and the college."
+   },
+   {
+    "p": "He envisions students walking down the hall and gaining an understanding of St. Bernard sports history dating to 1891."
+   },
+   {
+    "p": "For Howard, though, building an athletic program is about more than wins, facilities or new sports."
+   },
+   {
+    "p": "It is about getting students excited about athletics."
+   },
+   {
+    "p": "He describes himself as quiet and reserved away from sports. But put him around athletics and he becomes, in his words, “like a cheerleader out there.”"
+   },
+   {
+    "p": "The students notice that enthusiasm, he said."
+   },
+   {
+    "p": "“They see that I care,” Howard said."
+   },
+   {
+    "p": "And that may be the starting point for the program he hopes to build at St. Bernard."
+   },
+   {
+    "p": "There is plenty of work ahead. Howard has already begun identifying improvements that need to be made, from facilities and fundraising to recruiting and adding sports."
+   },
+   {
+    "p": "But he said he has been impressed by the administration and is looking forward to seeing what can be accomplished during a full year at St. Bernard."
+   },
+   {
+    "p": "“I’m just looking forward to a good year,” he said."
+   },
+   {
+    "p": "Howard is also bringing a family of his own into that work. He has three sons — 14-year-old twins and a 5-year-old — and describes life with them as a nonstop rotation of sports and activities."
+   },
+   {
+    "p": "For a new athletic director whose own path through sports began as a child, that sounds fitting."
+   },
+   {
+    "p": "And at St. Bernard, Howard is ready to see where the next season takes him."
+   }
+  ]
+ },
+ {
+  "id": "christmas-at-the-grotto",
+  "page": 3,
+  "title": "Start the season with Christmas at the Grotto",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "img": "photos/p3-grotto.jpg",
+    "caption": "The Grotto is decorated with Christmas lights for last year’s Christmas at the Grotto celebration."
+   },
+   {
+    "p": "Christmas lights offer a new perspective on Ave Maria Grotto, even for longtime visitors. Illuminated after dark, Brother Joseph Zoettl’s miniature creations provide a peaceful setting to reflect on the meaning of Christmas."
+   },
+   {
+    "p": "Christmas at the Grotto is back for its eighth year in November. Director Roger Steele said the event started as a trial in 2019, when only half the park was open at night. With little time to get ready, the first display used mostly spotlights and a small set of lights."
+   },
+   {
+    "p": "Since then, it has become a holiday tradition for families and helps support the monastery. The event now lasts more than 20 nights, with live music and visits from Santa Claus on some evenings. Horse-drawn wagon rides are another special activity."
+   },
+   {
+    "p": "This year’s event begins Nov. 19 and runs on select dates through Dec. 27. You can find the full schedule, admission prices and special activities in the pinned event on Ave Maria Grotto’s Facebook page and at <a href=\"https://avemariagrotto.com\" target=\"_blank\" rel=\"noopener\">avemariagrotto.com</a>."
+   },
+   {
+    "p": "Steele said the Grotto adds to Cullman’s Christmas attractions by giving people a peaceful place to reflect on Christ’s birth. Visitors walk through the lit-up grounds, where Nativity displays help keep that meaning at the heart of the event."
+   },
+   {
+    "p": "“The spiritual, the peaceful aspect of what Christmas is all about, I think, is on full display here,” Steele said."
+   },
+   {
+    "p": "The displays change every year, so returning visitors always have something new to see. This season, Steele hopes to reopen an old trail built by Brother Joseph, letting guests walk through a wooded part of the Grotto. They plan to add Nativity scenes along the path, but preparations are still in progress."
+   },
+   {
+    "p": "For some families, visiting has become a tradition they enjoy several times each season. Steele said the event also brings guests from outside the area, including people who have come from Mobile just to see the lights."
+   },
+   {
+    "p": "He encourages anyone who has only seen the Grotto during the day to come back for an evening visit."
+   },
+   {
+    "p": "“If you’ve seen it during the day, seeing it at night is a completely different experience,” he said."
+   }
+  ]
+ },
+ {
+  "id": "club-updates",
+  "page": 3,
+  "title": "Club updates",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "p": "At St. Bernard Preparatory School, Saints Period gives students time to explore interests outside the classroom through activities that support their academic, spiritual and personal growth."
+   },
+   {
+    "p": "Fr. Dominic Lee’s chess club is all about enjoying the game. Students play in a relaxed setting and learn to appreciate the skill it takes. Guy Smith also runs a cards club."
+   },
+   {
+    "img": "photos/p3-chess.jpg",
+    "caption": "Chess Club.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "Students curious about the ancient world can join Br. Damien’s Latin club, where they explore Roman history and culture. Games introduce new topics and help build on what students learn in Latin class, giving them a better sense of the people who spoke the language."
+   },
+   {
+    "p": "In Mr. James Griffin’s Don Bosco Club, students gather for casual chats that give them space to reflect on their faith. Inspired by St. John Bosco’s historic ministry with youth, the club is entirely focused on helping students grow spiritually."
+   },
+   {
+    "p": "Students use Mrs. Ashley Hasenbein’s study hall to knock out daily assignments or wrap up their college applications. According to Mrs. Hasenbein, having this built-in time during the day takes the pressure off their evenings and keeps them on top of their schoolwork."
+   },
+   {
+    "img": "photos/p3-study-hall.jpg",
+    "caption": "Hasenbein Study Hall.",
+    "credit": "Photo by Anabelle Howze"
+   },
+   {
+    "p": "Dr. Craig Mann leads the Community Service Team, which has already started helping out. Students cleaned dining areas and helped set up the food tent for Bernard Blues &amp; BBQ. After the festival, they cleaned up and packed away signs."
+   },
+   {
+    "p": "“The St. Bernard Community Service Team was founded to do exactly as our name implies: to serve,” Mann said."
+   },
+   {
+    "p": "The team plans to help Curt’s Closet with its “Curt’s Christmas” program, which provides Christmas gifts and essentials to local children and families in need. In the spring, members hope to visit Fort Campbell, Kentucky, again with the USO, to thank soldiers. Local service projects will give more chances to help during the year."
+   },
+   {
+    "img": "photos/p3-service.jpg",
+    "caption": "Community Service Club.",
+    "credit": "Photo by Craig Mann"
+   },
+   {
+    "p": "Other Saints Period options include Mrs. Amber Watts’ art club, archery with Ms. Elicia Fallin, Garden Club with Mrs. Connie Briehn and the GLAD club led by Mrs. Valjean Cox."
+   },
+   {
+    "p": "These activities let students try things they enjoy and get more involved in the St. Bernard community."
+   }
+  ]
+ },
+ {
+  "id": "bloomin-festival",
+  "page": 3,
+  "title": "Bloomin’ Festival: vendor applications are open",
+  "kind": "Announcement",
+  "body": [
+   {
+    "p": "You are invited to apply as a vendor for the 43rd Annual Bloomin’ Festival, April 17–18, 2027, at St. Bernard Abbey &amp; Preparatory School in Cullman, Alabama. Join us for a weekend of arts, crafts and community!"
+   },
+   {
+    "p": "12′ × 12′ booths: $275 · Electricity: $25"
+   },
+   {
+    "p": "Apply today at <a href=\"https://www.bloominfestival.com\" target=\"_blank\" rel=\"noopener\">www.bloominfestival.com</a>. Questions? <a href=\"mailto:ahowze@stbernardprep.com\">ahowze@stbernardprep.com</a> · 256-255-5860"
+   }
+  ]
+ },
+ {
+  "id": "sro",
+  "page": 4,
+  "title": "From lawman to farmer, musician and mentor, SRO finds a home",
+  "byline": "Tom Mayer",
+  "body": [
+   {
+    "img": "photos/p4-students.jpg",
+    "caption": "St. Bernard Preparatory School SRO Billy Kyle James gets some helping hands from a few of the students he jokes with during a lunch break Sept. 18, on the school campus.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "When Officer Billy Kyle James first came to St. Bernard Preparatory School, he wasn’t sure he would stay."
+   },
+   {
+    "p": "He had spent years in law enforcement, including work as a road deputy, jail officer, probation and parole officer and supervisor. He had also already served as a school resource officer."
+   },
+   {
+    "p": "But being an SRO at a Catholic boarding school wasn’t simply a matter of wearing a badge and making sure the campus was secure. There were students to meet. Teachers to get to know. Parents, maintenance workers, cooks and monks to become familiar with."
+   },
+   {
+    "p": "And, most importantly, there were relationships to build."
+   },
+   {
+    "p": "“The first year I was here, I was ready to quit,” James said."
+   },
+   {
+    "p": "It wasn’t because he didn’t take the job seriously. Quite the opposite. But when students first saw him, many avoided him."
+   },
+   {
+    "p": "“And in my mind, I’m playing it out, OK, are they thinking I’m here to get them, catch them doing something?” he said. “And that was not it.”"
+   },
+   {
+    "p": "Over time, that changed. Today, James says he feels “part of the family now instead of an outcast.”"
+   },
+   {
+    "p": "That transformation may be the best way to understand James and the way he approaches his job at St. Bernard. His number one responsibility, he said, is simple."
+   },
+   {
+    "p": "“I’m here to make sure kids go home.”"
+   },
+   {
+    "h": "A career that found its way to St. Bernard"
+   },
+   {
+    "img": "photos/p4-james.jpg",
+    "caption": "SRO Billy Kyle James",
+    "small": true
+   },
+   {
+    "p": "James began his law enforcement career in 1986 as a reserve deputy in Cullman County. After six years, he was hired full time by the Sheriff’s Department, where he spent 13 years working in several capacities."
+   },
+   {
+    "p": "He later worked in community corrections and then as a school resource officer before accepting a position with the state as a probation and parole officer in 2006."
+   },
+   {
+    "p": "He spent two years in Jefferson County and then transferred to Winston County, where he worked for about 10 years, including several years as a supervisor."
+   },
+   {
+    "p": "After retiring from the state, James returned to school resource work. Eventually, an opening at St. Bernard came through former Cullman Chief of Police Kenny Culpepper."
+   },
+   {
+    "p": "James had told Culpepper that he was interested in an SRO position. Culpepper told him that there were currently no open positions."
+   },
+   {
+    "p": "“I told him to keep my name in,” James said."
+   },
+   {
+    "p": "The next morning, Culpepper called."
+   },
+   {
+    "p": "“We’ve got a position at St. Bernard,” James recalled him saying."
+   },
+   {
+    "p": "The arrangement allowed James to work for both the city and St. Bernard, and it also worked with his state retirement."
+   },
+   {
+    "p": "That was in 2022. James has been at St. Bernard ever since, sharing the weekly workload with the officer who put him at St. Bernard in the first place, Culpepper."
+   },
+   {
+    "h": "Learning to trust — and be trusted"
+   },
+   {
+    "p": "James’ first year at the school taught him something he hadn’t fully anticipated. A school resource officer can’t simply walk onto a campus and expect students to trust him because he is a police officer."
+   },
+   {
+    "p": "That trust has to be earned. At St. Bernard, two students helped get that process started."
+   },
+   {
+    "p": "One was a student named Peter, who later joined the Marine Corps. The other was Jack, a student James remembers as being particularly quiet."
+   },
+   {
+    "p": "James likes to joke with people, but he quickly learned that students didn’t always know when he was joking."
+   },
+   {
+    "p": "“Whenever I would try to joke with a student, they always took me serious,” he said."
+   },
+   {
+    "p": "With Jack, however, something changed after one of James’ jokes."
+   },
+   {
+    "p": "Later, during a pep rally, Jack walked over to where James was sitting by himself and started a conversation with him."
+   },
+   {
+    "p": "Afterward, James encountered Jack’s mother in the parking lot."
+   },
+   {
+    "p": "“She told me, ‘If Jack did that to you, that means he’s got confidence in you, because he doesn’t do that to just anybody,’” James said."
+   },
+   {
+    "p": "That mattered. So did the students who came after him."
+   },
+   {
+    "p": "There was Emily, a student who joked with James about having him sing the National Anthem at graduation. There were students he gave nicknames to. There were students who waved when they saw him."
+   },
+   {
+    "p": "Gradually, more students started talking to him."
+   },
+   {
+    "p": "For James, those small interactions became something much larger."
+   },
+   {
+    "p": "Every year at graduation, he gives a silver dollar to several seniors he has developed relationships with, getting their parents’ approval first. He also includes a card with a Bible verse reminding them to trust in the Lord."
+   },
+   {
+    "p": "One year, he gave out seven, and today, he keeps photographs of some of his favorite graduating classes."
+   },
+   {
+    "p": "He also still has a card and gift card given to him by students who interviewed him for the school newspaper."
+   },
+   {
+    "p": "“I still got the little gift card they gave me,” he said. “I never cashed it.”"
+   },
+   {
+    "p": "But the accompanying message meant so much to him that, he said, it nearly brought him to tears."
+   },
+   {
+    "p": "“It’s all about relationships,” James said."
+   },
+   {
+    "h": "The serious side of the badge"
+   },
+   {
+    "p": "The humor and relationships don’t diminish the seriousness with which James views his responsibility. School safety is always on his mind, and particularly the possibility of a school shooting."
+   },
+   {
+    "p": "He makes a point of being visible around campus. He watches entrances and different areas of the school, because he believes an officer’s presence can be an important deterrent."
+   },
+   {
+    "p": "He also pays attention to what he calls “false security.” Book bags left unattended, for example, concern him because of the possibility that something could be placed inside them. He believes classroom doors should remain closed and that students need to be trained to respond appropriately during an emergency."
+   },
+   {
+    "p": "James participates in training that prepares officers to respond to an active shooter. He has been through exercises where officers work as a team to clear buildings while dealing with the realities of an active-shooter scenario."
+   },
+   {
+    "p": "But his concern isn’t limited to what he would do as an officer."
+   },
+   {
+    "p": "He wants students to understand what they should do, too."
+   },
+   {
+    "p": "“Kids need to be trained on what to do in that situation,” he said."
+   },
+   {
+    "p": "His reason for taking that responsibility so personally is straightforward."
+   },
+   {
+    "p": "“I treat every one of these kids like they’re mine,” he said. “If that was my daughter here, I would treat her the same as I do with these kids, because these kids all have a special place in my heart.”"
+   },
+   {
+    "h": "Making friends across campus"
+   },
+   {
+    "p": "The relationships James has built aren’t limited to students."
+   },
+   {
+    "p": "“I’ve made some good friends,” he said of the faculty. “But I’m not the type of person that sticks with just faculty.”"
+   },
+   {
+    "p": "He makes friends with the maintenance workers. He makes friends with the cooks."
+   },
+   {
+    "p": "“I always say,” James said, “when you’re a resource officer, first thing you do is make friends with the cooks. Because they’re the ones cooking your food, and they will take care of you.”"
+   },
+   {
+    "p": "At St. Bernard, making friends also means getting to know the monks. That has produced some memorable moments."
+   },
+   {
+    "p": "During his first year, James was outside doing traffic duty when someone dressed in black and wearing a hoodie emerged from the woods."
+   },
+   {
+    "p": "He didn’t know the Benedictine monks yet, who are clothed in black habits with hoods."
+   },
+   {
+    "p": "“So, I addressed the situation,” he said. “I found out it was a monk.”"
+   },
+   {
+    "p": "Now, he has learned which monks he can joke with and which ones he should approach a little differently."
+   },
+   {
+    "p": "He calls many of them “brother,” partly because remembering names isn’t as easy as it used to be. He has learned that the priests should be addressed as fathers."
+   },
+   {
+    "p": "He also knows that one particular priest, St. Bernard Preparatry School president Fr. Paschal Pautler, has a sense of humor."
+   },
+   {
+    "p": "One day at a school Mass, James’ cellphone went off during Fr. Paschal’s homily."
+   },
+   {
+    "p": "James quickly left the vestibule, hoping nobody had heard it."
+   },
+   {
+    "p": "Fr. Paschal later told him he thought it was funny."
+   },
+   {
+    "p": "“I’m glad it was you and not a student,” he told James — especially since students are not allowed to use cell phones during school hours."
+   },
+   {
+    "p": "That’s another relationship James has come to appreciate."
+   },
+   {
+    "h": "A farmer, musician and artist"
+   },
+   {
+    "p": "Away from the school, James has plenty to keep him busy."
+   },
+   {
+    "p": "He owns a cattle farm in Cullman County with about 30 to 35 head of cattle. He spends much of the summer working in hay fields, and he and Culpepper work around that schedule when necessary."
+   },
+   {
+    "p": "He bought the farm after retiring from the state, using money he had been owed for vacation days to purchase cattle, tractors and other equipment."
+   },
+   {
+    "p": "“I love doing things, especially if it’s got a form of art,” he said."
+   },
+   {
+    "p": "That philosophy shows up in unexpected places."
+   },
+   {
+    "p": "James learned to play guitar as a youngster, teaching himself from chords his father drew out for him. He later learned to play piano after a friend showed him some things."
+   },
+   {
+    "p": "He still plays at St. Bernard when he gets the opportunity for a quick break."
+   },
+   {
+    "img": "photos/p4-piano.jpg",
+    "caption": "Beyond protecting students on campus, St. Bernard Preparatory School SRO Billy Kyle James takes a break to entertain staff in the Admissions Building.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "He also dabbles in oil painting. As a student at Wallace State Community College, he took an art class and eventually painted a portrait of his grandfather."
+   },
+   {
+    "p": "“It was just like him,” James said. “I was happy.”"
+   },
+   {
+    "p": "He has restored a 1966 Chevrolet truck, cutting and installing its wooden bed himself, painted parts of his own truck and tackled automobile repairs after watching instructional videos."
+   },
+   {
+    "p": "“If I watch it on YouTube and I realize I can’t fix it, I don’t even tackle it. I’ll pay somebody,” he said. “But nine times out of 10, I will ... fix it myself.”"
+   },
+   {
+    "h": "The road that started in third grade"
+   },
+   {
+    "p": "In some ways, James’ career began when he was a third-grader and a police officer visited his school."
+   },
+   {
+    "p": "“I thought it was so cool, and I thought, I’d like to do that,” he said."
+   },
+   {
+    "p": "Years later, after spending eight years out of school and working jobs that paid little, James decided to change direction."
+   },
+   {
+    "p": "He drove to Wallace State and walked inside."
+   },
+   {
+    "p": "“I said, ‘Tell me how to sign up,’” he recalled."
+   },
+   {
+    "p": "He did."
+   },
+   {
+    "p": "Two years later, he graduated from Wallace. He went on to Athens State University and earned an elementary teaching certificate. He was also pursuing a master’s degree at the University of Alabama before job responsibilities prevented him from completing it."
+   },
+   {
+    "p": "The path eventually brought him back to law enforcement, then to school resource work, and finally to St. Bernard."
+   },
+   {
+    "p": "There is a consistency to the way James describes all of it: If something interests him, he gives it a try."
+   },
+   {
+    "p": "Law enforcement. Farming. Guitar. Piano. Painting. Restoring a truck. Fixing things."
+   },
+   {
+    "p": "And now, being part of a school community — and part of a new family. James became a grandfather in January, an experience he says has changed his life."
+   },
+   {
+    "p": "Today, he also enjoys following hockey and has made friendships through the sport, including trips to watch games."
+   },
+   {
+    "p": "But on school days, his focus remains the same. He wants to be there."
+   },
+   {
+    "p": "He tries not to leave campus unless he has to. When he does have to be away, arrangements are made so the school remains covered, including close patrols by other officers when neither school resource officer can be present."
+   },
+   {
+    "p": "Because for James, being an SRO isn’t simply about being available when something goes wrong."
+   },
+   {
+    "p": "It is about being known before something goes wrong."
+   },
+   {
+    "p": "It is about a student feeling comfortable enough to walk over and start a conversation."
+   },
+   {
+    "p": "It is about a parent knowing who is watching over the campus."
+   },
+   {
+    "p": "It is about a cook, maintenance worker, teacher or monk knowing the officer who is there every day."
+   },
+   {
+    "p": "And it is about trust."
+   },
+   {
+    "p": "“That’s the important part of the job,” James said. “Developing that trust. Keeping kids and faculty safe. That’s my top priority.”"
+   }
+  ]
+ },
+ {
+  "id": "blues-bbq",
+  "page": 5,
+  "title": "Bernard Blues & BBQ",
+  "kind": "Photo page",
+  "body": [
+   {
+    "p": "Bernard Blues and BBQ brought people together on September 12-13 with live blues music, tasty barbecue and a welcoming atmosphere. Guests enjoyed great food and entertainment while celebrating the local community and browsing a beautiful artisan craft show. It was a great chance for everyone to meet up, connect and have fun."
+   },
+   {
+    "gallery": [
+     "photos/p5-bbq-01.jpg",
+     "photos/p5-bbq-02.jpg",
+     "photos/p5-bbq-03.jpg",
+     "photos/p5-bbq-04.jpg",
+     "photos/p5-bbq-05.jpg",
+     "photos/p5-bbq-06.jpg",
+     "photos/p5-bbq-07.jpg",
+     "photos/p5-bbq-08.jpg",
+     "photos/p5-bbq-09.jpg",
+     "photos/p5-bbq-10.jpg",
+     "photos/p5-bbq-11.jpg",
+     "photos/p5-bbq-12.jpg",
+     "photos/p6-bbq-13.jpg",
+     "photos/p6-bbq-14.jpg",
+     "photos/p6-bbq-15.jpg",
+     "photos/p6-bbq-16.jpg",
+     "photos/p6-bbq-17.jpg",
+     "photos/p6-bbq-18.jpg",
+     "photos/p6-bbq-19.jpg"
+    ],
+    "credit": "Photos by Anabelle Howze"
+   },
+   {
+    "p": "See <a href=\"https://facebook.com/stbernardprepschool\" target=\"_blank\" rel=\"noopener\">facebook.com/stbernardprepschool</a> for more photos."
+   }
+  ]
+ },
+ {
+  "id": "home-away",
+  "page": 6,
+  "title": "Home away from home",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "img": "photos/p6-sidequest.jpg",
+    "caption": "Dorm students join Father Dominic Lee for a “Side Quest Thursday” trip to Eight Mile Creek.",
+    "credit": "Photo by Michelle Scott"
+   },
+   {
+    "p": "Before classes even start at St. Bernard Preparatory School, dorm students are already up and active. After school, many join sports or other activities, while some head back to the dorms to unwind with friends before everyone gathers for a community dinner."
+   },
+   {
+    "p": "After study hall, students have time to catch up with friends in the quad. They return to their dorms for a head count, prayer and announcements before lights out. Dorm directors Ysabel and Chris Layug said the routine helps students settle into dorm life and find time for one another."
+   },
+   {
+    "p": "Some of the most meaningful moments happen between scheduled activities, when students gather in the common rooms to talk. The Layugs said putting phones away during meals gives them time to connect, while keeping devices out of study hall helps them focus on their work."
+   },
+   {
+    "p": "On weekends, students get to explore off campus. They’ve gone to an escape room, bowling, roller skating, a trampoline park — and even river rafting. Wednesday’s Town Day is another favorite, giving students time to shop, pick up what they need and share a meal with friends."
+   },
+   {
+    "img": "photos/p6-topgolf.jpg",
+    "caption": "Dorm students enjoy a trip to Topgolf in Huntsville for a fun weekend outing.",
+    "credit": "Photo by Michelle Scott"
+   },
+   {
+    "p": "For the Layugs, dorm life is shaped by the friendships students form while living together. Sharing a home with peers from different backgrounds helps them become more independent, with the reassurance that someone is there when they need help."
+   },
+   {
+    "p": "“You study together. You do chores together. You do almost everything together,” Ysabel said. She added that getting through tough days as a group teaches students how to look out for each other."
+   },
+   {
+    "p": "Living on campus also lets students experience more of St. Bernard. The Layugs said dorm students can walk the trails, meet the monks and enjoy the beauty of the grounds every day."
+   },
+   {
+    "img": "photos/p6-tubing.jpg",
+    "caption": "Dorm students head out by bus for a weekend tubing adventure, enjoying a fun getaway with friends.",
+    "credit": "Photo by Michelle Scott"
+   },
+   {
+    "p": "They understand that moving into a dorm can feel like a big change. Ysabel said students can look forward to making their rooms feel personal, and both directors stressed that they “help each student adjust first,” Chris said. “We are looking out for each of them.”"
+   }
+  ]
+ },
+ {
+  "id": "ai-classroom",
+  "page": 6,
+  "title": "Not settling for an easy answer to AI in the classroom",
+  "byline": "Tom Mayer",
+  "body": [
+   {
+    "img": "photos/p6-smith.jpg",
+    "caption": "Bernard Prep physics instructor Dr. Guy Smith speaks to parents and staff about the cautionary use of AI in the classroom.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "St. Bernard Preparatory School is taking an early look at how artificial intelligence can be used in the classroom while helping students learn to use the technology responsibly."
+   },
+   {
+    "p": "Physics teacher Dr. Guy Smith discussed the school’s pilot use of TrekAI during a September meeting with parents and staff. The school is beginning with certain teachers and students using the system and will evaluate how it works during the school year."
+   },
+   {
+    "p": "Smith said the school cannot simply disregard artificial intelligence, noting that students already use a variety of AI tools."
+   },
+   {
+    "p": "“We’re not going to ignore AI,” Smith said. “We’re going to use it and teach our students how to use it responsibly and ethically.”"
+   },
+   {
+    "p": "One difference Smith highlighted is the way TrekAI approaches questions. Rather than simply supplying an answer, the system uses a Socratic approach, leading students through questions and different scenarios so they can work toward the answer themselves."
+   },
+   {
+    "p": "Another difference is the way TrekAI correlates with the mission of St. Bernard Prep."
+   },
+   {
+    "p": "“TrekAI aligns data sources with the Catholic identity of St. Bernard Preparatory School and the Benedictine tradition of St. Bernard Abbey,” Smith said. “It helps teachers deliver instruction that reflects our community’s values, faith and academic standards."
+   },
+   {
+    "p": "“Magisterium AI is a separate AI platform available in all St. Bernard TrekAI accounts. It is a specialized theological knowledge tool, designed to assist with Catholic theology, Church documents, philosophy and teachings. Magisterium AI provides reliable answers grounded in official sources like Scripture, the Catechism and papal encyclicals.”"
+   },
+   {
+    "p": "“Teachers at St. Bernard can use Magisterium AI to ensure that any faith-based questions, lesson planning involving Catholic doctrine or theological research are accurately supported by authentic Church teaching,” Smith said."
+   },
+   {
+    "p": "During his demonstration, Smith showed how TrekAI responded to a physics question by asking the student to think through what was happening and consider different possibilities. The system continued asking questions about the problem to prompt student thinking rather than simply identifying the correct answer."
+   },
+   {
+    "p": "“It’s working me through it,” Smith said."
+   },
+   {
+    "p": "Such an approach is what persuaded Smith that TrekAI could be useful."
+   },
+   {
+    "p": "“That’s convincing to me that I want my students to use TrekAI,” he said."
+   },
+   {
+    "p": "The school is still in the pilot stage. Teachers and students are being asked to use the system and provide honest feedback as St. Bernard determines how it can best be incorporated into the school."
+   },
+   {
+    "p": "Smith said he hopes other teachers will consider adopting the tool and allowing students to use AI in ways that help them learn rather than simply obtain answers."
+   }
+  ]
+ },
+ {
+  "id": "scholars-bowl",
+  "page": 7,
+  "title": "Knowledge is a team sport",
+  "byline": "Tom Mayer",
+  "body": [
+   {
+    "img": "photos/p7-trophies.jpg",
+    "caption": "Scholars’ Bowl trophies line a shelf in the library.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "At St. Bernard Preparatory School, competition does not always involve cleats, balls or a scoreboard."
+   },
+   {
+    "p": "Sometimes it involves a buzzer, a stack of questions and a student who has to decide, in a fraction of a second, whether he or she knows the answer."
+   },
+   {
+    "p": "That is Scholars’ Bowl, a statewide academic competition in which teams face questions covering a wide range of subjects. The questions are often written to begin broadly and become more specific, giving students the opportunity to recognize the answer and buzz in before their opponents. Getting in early can mean more points — or, if the answer is wrong, a penalty."
+   },
+   {
+    "p": "At St. Bernard, the activity has a long history. Brother Thomas Jones, the school’s Scholars’ Bowl coach, noted that the program goes back decades, with tournament records showing St. Bernard hosting competitions as far back as the mid-2000s."
+   },
+   {
+    "img": "photos/p7-jones.jpg",
+    "caption": "Brother Thomas Jones",
+    "small": true
+   },
+   {
+    "p": "But Jones has his own long connection to the activity. He competed for four years in high school and another two years in college before eventually taking over the program at St. Bernard."
+   },
+   {
+    "p": "Today, he handles much of the organization behind the scenes: scheduling practices, maintaining several spreadsheets for statistics, keeping track of question sets and monitoring tournament schedules. He also works closely with assistant coach Dr. Craig Mann."
+   },
+   {
+    "p": "Mann describes his role more simply."
+   },
+   {
+    "p": "“I’m a general gofer for all of that,” he said."
+   },
+   {
+    "p": "“That” includes keeping track of things, helping with scheduling, keeping score at tournaments and, occasionally, corralling students while Jones is occupied with other duties."
+   },
+   {
+    "p": "The two coaches, however, have a division of labor that goes well beyond the “general gofer” description. Jones said the coaching is a collaborative effort, and he is particularly appreciative of Mann’s work with the students."
+   },
+   {
+    "img": "photos/p7-mann.jpg",
+    "caption": "Dr. Craig Mann is assistant coach.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "Like Jones, Mann came to Scholars’ Bowl with some experience of his own. He had participated in similar competitions and later took part in quiz competitions in college."
+   },
+   {
+    "p": "For both coaches, the attraction goes beyond knowing obscure facts."
+   },
+   {
+    "p": "“I like the competitiveness,” Jones said. “I like the academic challenge of it.”"
+   },
+   {
+    "p": "He also enjoys working with the students who are drawn to the program."
+   },
+   {
+    "p": "Mann said Scholars’ Bowl students tend to be sharp and quick-witted. Because they are competing with a buzzer in hand, they also have to be willing to take a chance."
+   },
+   {
+    "p": "“They also tend to have an offbeat kind of sense of humor,” Mann said. “They tend to be the ones who will laugh at things that others will grimace at.”"
+   },
+   {
+    "p": "They’re also typically good conversationalists, he said, because successful players need a broad base of knowledge — not that that means everyone has to know everything."
+   },
+   {
+    "p": "A good team benefits from students who know a little about a lot, but specialists can be particularly valuable. A student may have a strong command of history, politics, science, fine arts or pop culture, and coaches try to build teams that combine those strengths."
+   },
+   {
+    "p": "Jones said the coaches encourage students to develop specialties while also expanding their general knowledge."
+   },
+   {
+    "p": "And while the competition is serious at St. Bernard — the activity can be compared to a varsity sport — the coaches do not want seriousness to overwhelm the fun."
+   },
+   {
+    "p": "“We want you guys to enjoy doing this,” Jones said of the message he and Mann give students at the beginning of the year."
+   },
+   {
+    "p": "“Do we want to win,” Jones said. “Yes, but we don’t want to press the students so hard that they’re not going to want to come back.”"
+   },
+   {
+    "p": "That philosophy is shaped in part by Jones’ own experience. He remembers enjoying practices more than many of the tournaments he attended as a student, and he wants current players to leave the program with positive memories of their own."
+   },
+   {
+    "p": "Yet, there is still plenty of competitive fire."
+   },
+   {
+    "p": "The high school program currently has 10 active students, while the middle school has seven. Students practice once a week, with high school and middle school practices held separately."
+   },
+   {
+    "img": "photos/p7-practice.jpg",
+    "caption": "High school and middle school Scholars’ Bowl students practice weekly.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "At tournaments, coaches try to give as many students as possible an opportunity to compete. Teams can be rearranged so students get more playing time, more statistics and, perhaps most importantly, more experience with the buzzer."
+   },
+   {
+    "p": "That buzzer can be more intimidating than it sounds."
+   },
+   {
+    "p": "Students have to learn when to take the chance and when to wait. In some formats, an incorrect early answer can cost five points. Jones said he would rather see a student take the shot than sit back afraid of being wrong."
+   },
+   {
+    "p": "He compares it to basketball."
+   },
+   {
+    "p": "“You just got to take the shot when you get the shot,” he said."
+   },
+   {
+    "p": "The tournaments, known as invitationals, can bring together schools from throughout Alabama and sometimes from outside the state. St. Bernard students have competed at tournaments at schools such as Hoover High School and have traveled to Vanderbilt."
+   },
+   {
+    "p": "The program also has a record of success, particularly at the middle-school level. Jones said the middle school team has reached the state tournament approximately eight times in the past 15 years. The high school team has also reached the state tournament, though less frequently."
+   },
+   {
+    "p": "One challenge at the high school level is keeping students involved as their schedules become more demanding, particularly during junior and senior years. There is also more competition from larger schools with larger pools of students, some of whom devote considerable time to preparing for Scholars’ Bowl."
+   },
+   {
+    "p": "St. Bernard’s players know that."
+   },
+   {
+    "p": "“They just go in and they just play,” Jones said. “They’re just there to have fun.”"
+   },
+   {
+    "p": "And sometimes the questions themselves provide plenty of entertainment."
+   },
+   {
+    "p": "Scholars’ Bowl questions are generally written in what is called a pyramidal format. They begin with broader clues and become increasingly specific. Players listen, try to recognize the subject and buzz in when they believe they know the answer."
+   },
+   {
+    "p": "The system can produce some memorable moments."
+   },
+   {
+    "p": "Mann recalled one St. Bernard student hearing a question about Alcatraz, the former federal prison in San Francisco Bay, and buzzing in with the answer, “Azkaban.”"
+   },
+   {
+    "p": "Azkaban, of course, is not a federal prison. It is a fictional island fortress in the middle of the North Sea that serves as the primary wizarding prison in the Harry Potter universe."
+   },
+   {
+    "p": "Jones has another favorite."
+   },
+   {
+    "p": "During a question about the event marking the resurrection of Jesus, a student buzzed in with, “Christmas.”"
+   },
+   {
+    "p": "But there are also moments when the coaches find themselves learning something."
+   },
+   {
+    "p": "Jones said that nearly every week during the season, he encounters a question and thinks, “That’s a good one.”"
+   },
+   {
+    "p": "The coaches also pay attention to the quality of the questions themselves. When St. Bernard hosted an invitational, Jones reviewed questions in advance and identified places where answers might need clarification or where alternate answers could reasonably be accepted."
+   },
+   {
+    "p": "For all of organization, preparation and competition, the program has not lost its sense of fun. After tournaments, the team sometimes celebrates a trip out for treats."
+   },
+   {
+    "p": "And the coaches themselves seem to enjoy the people as much as the competition."
+   },
+   {
+    "p": "Jones said he “thoroughly enjoys” working with Mann and described the two as complementary coaches. Mann, for his part, has given Jones much of the credit for keeping the program organized."
+   },
+   {
+    "p": "It is a fitting arrangement for a program built around teamwork. Scholars’ Bowl may test individual knowledge, but success comes from putting different kinds of knowledge together."
+   },
+   {
+    "p": "A student who knows military history may provide an answer another player would never have recognized. Someone with a talent for politics may know a fact that escapes the rest of the team. Another player may know the obscure piece of pop culture that suddenly turns a question into 15 points."
+   },
+   {
+    "p": "And then there is the buzzer."
+   },
+   {
+    "p": "Knowing the answer is one thing. Having the nerve to hit the button is another. And that’s why, Jones said, it takes a team — one with members willing to support one another. Like those at St. Bernard Prep."
+   }
+  ]
+ },
+ {
+  "id": "alumni-news",
+  "page": 7,
+  "title": "Alumni News",
+  "kind": "Alumni",
+  "body": [
+   {
+    "p": "<strong>Mollie Catherine Woods</strong> (SB ’22) graduated cum laude from UAB in May 2026 with a Bachelor of Science degree from the School of Public Health."
+   },
+   {
+    "img": "photos/p7-woods.jpg",
+    "caption": "Mollie Catherine Woods (SB, ’22) graduates, cum laude from the University of Alabama at Birmingham.",
+    "small": true
+   },
+   {
+    "p": "<strong>Sid Rivard</strong> (SBP ’18) and <strong>Emma Pierce Rivard</strong> (SBP ’19), married June 24, 2023, welcomed their son, Taylor Jerome, on June 18, 2026."
+   },
+   {
+    "img": "photos/p7-rivard.jpg",
+    "caption": "Sid Rivard (SBP ’18) and Emma Pierce Rivard (SBP ’19), married June 24, 2023, welcome their son, Taylor Jerome, on June 18, 2026.",
+    "small": true
+   },
+   {
+    "p": "<strong>Col. Francis Leonard “Len” Loving</strong> (Class of 1960) passed away June 9, 2026, at age 87. He served 30 years in the Marine Corps and later led Jacksonville’s Five STAR Veterans Center."
+   },
+   {
+    "p": "<strong>Anthony “Tony” Jabaley</strong>, who attended St. Bernard High School, passed away Sept. 18, 2026, at age 88. He is remembered for his devotion to faith, family and community."
+   },
+   {
+    "p": "To submit to Alumni news, email <a href=\"mailto:happenings@stbernardprep.com\">happenings@stbernardprep.com</a>."
+   }
+  ]
+ },
+ {
+  "id": "benedictine-beat",
+  "page": 7,
+  "title": "Benedictine Beat: James Griffin",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "img": "photos/p7-griffin.jpg",
+    "caption": "Mr. James Griffin leads students through a lesson in his history class."
+   },
+   {
+    "p": "The flags in James Griffin’s history classroom often help him start a story. Some remind students of the American Revolution, and one reads, “Don’t give up the ship.” Each flag gives students a reason to ask what happened and why it still matters."
+   },
+   {
+    "p": "Before coming to St. Bernard Preparatory School, Griffin worked as both an attorney and a history teacher. In a conversation recorded for the school’s podcast, “The Benedictine Beat,” he told Vice President Rachael Stover that a friend suggested he try teaching at a prep school because he enjoyed working with young people, reading and sports. St. Bernard is the third boarding school where he has taught."
+   },
+   {
+    "p": "What Griffin appreciates most about St. Bernard is how close the school community feels. Former students still keep in touch, and some even invite him to their weddings years after they graduate."
+   },
+   {
+    "p": "“I’ve been invited to two or three St. Bernard weddings a summer,” he said. “It really is a compliment.”"
+   },
+   {
+    "p": "Griffin said students also get the chance to try things here they might not have considered before. Sometimes a friend encourages someone to join a team or try out for a play. He remembered a student who came as a junior and, by the end of the year, was singing solos at Mass."
+   },
+   {
+    "p": "For Griffin, these discoveries are part of an education that reaches beyond the classroom. The relationships students build along the way make graduation especially meaningful to him. It is his favorite St. Bernard tradition, with his students walking in and out to the sound of bagpipes."
+   },
+   {
+    "p": "“It’s just splendid,” he said."
+   },
+   {
+    "p": "Listen to the full conversation with Griffin on “The Benedictine Beat,” available at St. Bernard Prep School’s website at <a href=\"https://tinyurl.com/bdwayv6c\" target=\"_blank\" rel=\"noopener\">https://tinyurl.com/bdwayv6c</a>."
+   }
+  ]
+ },
+ {
+  "id": "growing-roots",
+  "page": 8,
+  "title": "Growing roots at St. Bernard",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "img": "photos/p8-pots.jpg",
+    "caption": "Garden Club students go to pick up the clay pots from the Fish Market.",
+    "credit": "Photo by Connie Briehn"
+   },
+   {
+    "p": "A few years ago, students transformed a weedy patch behind the school cafeteria into a garden where they can dig in the dirt and watch their hard work grow."
+   },
+   {
+    "p": "Two years ago, the Garden Club cleared the area with help from Father Dominic Lee, who brought in fresh soil from another part of campus. Students planted herbs for the monks, as well as tomatoes and other vegetables, and named the garden the Saint’s Garden."
+   },
+   {
+    "p": "The club’s efforts soon reached beyond the garden to fixing up a planting bed near the statue of Jesus outside of the administration building and adding flowers around campus. This year, thanks to a budget from Fr. Pautler Paschal, the club plans to take on more student-led projects."
+   },
+   {
+    "p": "The students’ first job will be to care for large clay pots donated to the school by George Sarris, owner of the Fish Market restaurant in Birmingham, and his son and daughter, Yorgo and Dorothy Sarris. The pots also offer an opportunity to learn about Crete’s rich pottery tradition. Thrapsano, located about 19 miles from the city of Heraklion, is the island’s largest pottery center, where the craft reflects generations of culture, history and artistry. Many thanks to the Sarris family for the generous donation to St. Bernard."
+   },
+   {
+    "img": "photos/p8-club.jpg",
+    "caption": "From left, Maria Carbonell, Mrs. Connie Briehn, Caterina Botta, Emily Gutowski, James Gillis, Dorothy Sarris.",
+    "credit": "Photo by Connie Briehn"
+   },
+   {
+    "p": "Adviser Mrs. Connie Briehn wants students to research which plants will do best in each location, using evergreens as a base with seasonal flowers planted around them to keep the pots growing year-round. The club also hopes to fix up the outdoor classroom and, over time, explore conservation projects on St. Bernard’s grounds."
+   },
+   {
+    "p": "For Briehn, working on the campus lets students care for God’s creation and see what they can achieve together. She hopes they will pick their own projects, learn by doing and feel that the spaces they improve are truly theirs."
+   },
+   {
+    "p": "“I think it’s very important that they take pride,” she said, “Then they take ownership of the projects and, as a result, take ownership of the campus.”"
+   },
+   {
+    "p": "She has already seen the garden bring together students who might not have spent time together otherwise. Some joined with little gardening experience, but now club members are excited to get started and share their ideas."
+   },
+   {
+    "p": "She hopes that years from now, students will come back to St. Bernard and see something they helped grow. “To look at something and say, ‘I did that. I grew this. I helped do that,’” she said. “I think that just builds a community.”"
+   }
+  ]
+ },
+ {
+  "id": "historian",
+  "page": 8,
+  "title": "Historian examines centuries-old volumes at St. Bernard Abbey",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "img": "photos/p8-book.jpg",
+    "caption": "A close look at one of the beautiful Latin choral books",
+    "credit": "Photo by Anabelle Howze"
+   },
+   {
+    "p": "A recent visit to the rare book collection at St. Bernard Abbey led Cullman County Museum director Molly Bloom to ask a new research question: What is the origin of one of its centuries-old Latin choral books?"
+   },
+   {
+    "p": "A photograph of a book in St. Bernard Abbey’s collection led Bloom to examine it in person. She studies artifacts in their historical context and has experience researching manuscripts and early documents."
+   },
+   {
+    "p": "The book is an antiphonal, a collection of chants used in worship. Bloom said its Gothic script suggests it may date to the 16th century, though more research is needed. The volume has changed over time: later material was added to its original pages, including one addition that appears to date to 1771."
+   },
+   {
+    "p": "The additions offer clues to the book’s history, but Bloom is especially interested in its calendar of feast days after noticing the title of St. Jerome appears twice and plans to investigate whether those references can help trace where the book was used."
+   },
+   {
+    "p": "“If I can pinpoint a location that celebrated St. Jerome on a feast day, that could likely put that antiphonal in that location,” she said."
+   },
+   {
+    "img": "photos/p8-bloom.jpg",
+    "caption": "Molly Bloom is observing and studying one of the choral books.",
+    "credit": "Photo by Anabelle Howze"
+   },
+   {
+    "p": "Bloom emphasized that reconstructing the book’s history will take considerable time. She plans to continue analyzing its contents and reexamine the volume during a later visit. She also offered to instruct abbey staff in preserving books showing signs of mold."
+   },
+   {
+    "p": "The collection’s scale and age have made a strong impression on Bloom. She expressed surprise at the number of volumes connected to early European history at St. Bernard."
+   }
+  ]
+ },
+ {
+  "id": "open-house",
+  "page": 8,
+  "title": "Open House: Get to know St. Bernard Prep!",
+  "kind": "Announcement",
+  "body": [
+   {
+    "img": "photos/p8-openhouse.jpg",
+    "caption": ""
+   },
+   {
+    "p": "<strong>Open House · Nov. 6 · 10 a.m.–3 p.m.</strong>"
+   },
+   {
+    "p": "Explore campus, enjoy light refreshments and meet our admissions team, faculty and staff. Learn about our curriculum, day and boarding options, and the Alabama CHOOSE Act. Parents and prospective students are welcome!"
+   },
+   {
+    "p": "For a more personalized visit, let us know when you plan to attend. Advance notice is appreciated but not required."
+   },
+   {
+    "p": "Tom Mayer, Admissions Coordinator · <a href=\"mailto:tmayer@stbernardprep.com\">tmayer@stbernardprep.com</a> · 256-339-8388"
+   }
+  ]
+ },
+ {
+  "id": "faith-pizza",
+  "page": 9,
+  "title": "Faith, pizza and the search for God",
+  "byline": "Tom Mayer",
+  "body": [
+   {
+    "img": "photos/p9-monks.jpg",
+    "caption": "Brother Nicholas Smith, from left, and Brother Benedict Dyar talk about monastic life in the monastery.",
+    "credit": "Photo by Tom Mayer"
+   },
+   {
+    "p": "The life of a Benedictine monk might not be what most people imagine. There are no hooded figures lurking in dark corners — and certainly no shortage of personalities under the habit."
+   },
+   {
+    "p": "At St. Bernard Abbey in Cullman, Brother Benedict Dyar and Brother Nicholas Smith have discovered that monastic life brings its share of prayer, work, personal discipline and community — along with artistic pursuits, movie nights, occasional frustrations and an enduring appreciation for good pizza."
+   },
+   {
+    "p": "For the two monks, life together is more than sharing a home and a daily schedule. It is a way of seeking God, learning to live with others and finding support in a community whose members share a common purpose, even when they disagree or get on one another’s nerves."
+   },
+   {
+    "p": "Living in a community is “the hardest part,” Brother Nicholas said of monastic life. “It’s also the best.”"
+   },
+   {
+    "p": "The same people who sometimes challenge a monk’s patience are the ones who pray alongside him, offer encouragement and help him through difficult moments. That tension between the challenges and blessings of living together lies at the heart of their Benedictine vocation."
+   },
+   {
+    "h": "Different paths to the monastery"
+   },
+   {
+    "p": "Neither Brother Benedict nor Brother Nicholas followed a conventional path straight into religious life."
+   },
+   {
+    "p": "Before becoming a monk, Brother Benedict spent years as a musician. A drummer, he played in marching and jazz bands as well as several rock bands. He loved his drum kit and embraced the look that went with the music."
+   },
+   {
+    "p": "“I had the hair, I had everything, but the tattoos,” he said."
+   },
+   {
+    "p": "The thought of becoming a Benedictine monk first interested him when he was 19, but he did not seriously pursue it until he became Catholic in 2004, at age 24."
+   },
+   {
+    "p": "Brother Nicholas, meanwhile, pursued a career in education. He taught art in the Madison area at James Clemens and Bob Jones high schools before returning to his hometown, where he spent two years teaching painting and ceramics."
+   },
+   {
+    "p": "He still draws and paints in his spare time, finding room for creativity within a life structured around prayer and communal responsibilities."
+   },
+   {
+    "p": "And, as to what surprised him most about becoming a monk, Brother Nicholas pointed not to the schedule or the religious practices, but to the people."
+   },
+   {
+    "p": "He has come to appreciate the genuineness of the community, including the variety of personalities and interests represented among its members. Some are people he might never have encountered in ordinary life, he said, yet they come together around a common goal."
+   },
+   {
+    "p": "That shared purpose does not erase individual differences. Instead, it gives the monks a reason to work through them."
+   },
+   {
+    "h": "Learning to live together"
+   },
+   {
+    "p": "Community life can be both a source of frustration and a source of strength."
+   },
+   {
+    "p": "Brother Benedict said one of his frustrations is that even in an environment built on community, monks, like other people, can struggle to communicate directly."
+   },
+   {
+    "p": "Brother Nicholas has a more practical complaint. Someone who takes particular care with cleaning and organization, he finds it frustrating when a communal space is tidied up only to become messy again moments later."
+   },
+   {
+    "p": "His experience as an art teacher taught him that lesson, too. After students cleaned a room — or he cleaned it himself — the space would inevitably get dirty again."
+   },
+   {
+    "p": "“It’s the nature of anything,” he said."
+   },
+   {
+    "p": "But the nature of monastic life, living in such a structured environment, means that even free time can take some getting used to. Brother Benedict explained that monks become so accustomed to routine and schedules that an entirely open afternoon can feel less like a luxury than an unfamiliar void."
+   },
+   {
+    "p": "He often uses an unstructured afternoon to clean his room and listen to music."
+   },
+   {
+    "p": "Brother Nicholas turns to books, alternating between fiction and theology, or devotes weekend time to art."
+   },
+   {
+    "p": "His recent work includes a series of paintings depicting soldier saints. He has completed works featuring St. Joan of Arc and St. Maurice, a Roman soldier from the fourth century, and is working on St. George and his dragon. He hopes to complete two more pieces for the series."
+   },
+   {
+    "p": "The artwork does not always find an immediate home. Some pieces sit in his room for a while, though a portrait he made of Brother Joseph Zoettl has been placed at the Ave Maria Grotto."
+   },
+   {
+    "p": "Such pursuits offer glimpses of the individual interests that continue to flourish within a shared religious life. The monks have their assignments and obligations, but they also make room for creativity and recreation."
+   },
+   {
+    "h": "More than prayer in the choir"
+   },
+   {
+    "p": "One misconception Brother Nicholas encounters is that monks spend virtually their entire day praying in church."
+   },
+   {
+    "p": "They do spend considerable time in prayer, but their lives encompass other aspects as well."
+   },
+   {
+    "p": "They have work assignments and chores, sometimes spend time together socially, go for walks and hold a movie night once a week — except during Lent."
+   },
+   {
+    "p": "Brother Benedict also challenged the familiar cinematic image of monks practicing severe penances, surviving on a crust of bread and a bottle of water, or inhabiting shadowy corners in hooded robes."
+   },
+   {
+    "p": "When his parents learned he was considering monastic life, they were worried. They imagined hooded figures holding candles and chanting Latin in dark corners."
+   },
+   {
+    "p": "That picture, Brother Benedict said, was an inaccurate depiction of the life he entered."
+   },
+   {
+    "p": "The reality includes ordinary human needs, personal interests and the daily work of living alongside other people. It also includes the discipline that makes the community possible."
+   },
+   {
+    "p": "“The good of all concerned, however, may prompt us to a little strictness in order to amend faults and to safeguard love,” as St. Benedict tells his monks in the Rule."
+   },
+   {
+    "p": "For Brother Nicholas, one tradition he hopes will never disappear is the chanting of the Divine Office."
+   },
+   {
+    "p": "“It’s beautiful, it’s peaceful,” he said. “It’s just amazing.”"
+   },
+   {
+    "p": "The chanting, he said, is a source of continuity and beauty within the community’s rhythm of prayer."
+   },
+   {
+    "h": "The cost and the privilege"
+   },
+   {
+    "p": "But the hardest part of Benedictine life? Brother Nicholas returned to community. Differences must be navigated, conversations approached carefully and conflicts worked through. Yet those same relationships provide companionship and spiritual support."
+   },
+   {
+    "p": "The monks pray for one another and stand beside one another in times of struggle. Sometimes, Brother Nicholas observed, the person helping a monk through a struggle may also be the person with whom he is struggling."
+   },
+   {
+    "p": "Brother Benedict identified obedience as his greatest challenge. It requires a daily decision to surrender one’s own preferences and will to another person and to God."
+   },
+   {
+    "p": "Human beings naturally want to do things their own way, he said, and monks are no exception."
+   },
+   {
+    "p": "Brother Benedict also reflected on the vows associated with monastic life, including poverty and celibacy, while emphasizing the continuing demands of obedience."
+   },
+   {
+    "p": "For him, however, those demands do not diminish the privilege of his vocation."
+   },
+   {
+    "p": "“I cannot fathom any better life for myself than this one,” he said."
+   },
+   {
+    "p": "He recalled how unusual his path to the monastery seemed, and he believes God called him to it."
+   },
+   {
+    "p": "The most enjoyable part of his life, he said, is resting in the privilege of that calling and knowing that God loves him."
+   },
+   {
+    "p": "That sense of vocation also shapes how the monks understand people beyond the monastery."
+   },
+   {
+    "p": "Brother Benedict said he has learned that people often carry an emptiness they try to fill with things other than God. He has heard people tell him they want what he has."
+   },
+   {
+    "p": "His response is that they do not have to become monks to find it."
+   },
+   {
+    "p": "“You may not get the Office and the cloister and all that,” he tells them, “but you can have the Lord.”"
+   },
+   {
+    "p": "For Brother Nicholas, the lesson for young people is to remain open to God’s direction rather than becoming too attached to a carefully mapped-out future."
+   },
+   {
+    "p": "He had planned from high school to become an art teacher, envisioned his ideal classroom and worked toward that goal. After achieving it, he realized he had not been listening closely enough to what God might be calling him to do."
+   },
+   {
+    "p": "“You can make all the plans you want,” he said, “but He has a plan that’s far better.”"
+   },
+   {
+    "h": "Human beings in habits"
+   },
+   {
+    "p": "The monks’ lives are not without humor."
+   },
+   {
+    "p": "Brother Nicholas has been asked whether he is a Sith Lord and has had people mistake his habit for a costume. Such encounters, particularly when he visits family or goes out with friends, can bring strange looks and unexpected questions. Brother Benedict has faced a similar pop-culture comparison."
+   },
+   {
+    "p": "But both monks say they welcome such opportunities to explain their vocation and talk about Christ. What begins as an awkward encounter can become a chance to evangelize."
+   },
+   {
+    "p": "And when the monks imagine an outing for the whole community, their minds turn not to an elaborate steakhouse dinner or a seafood restaurant, but to a pizzeria."
+   },
+   {
+    "p": "They may occasionally receive donated money for pizza, but Brother Benedict, if he had the opportunity, would take the community to visit a proper pizzeria. Brother Nicholas remembers gathering with friends back home around a 48-inch pizza from a hometown restaurant."
+   },
+   {
+    "p": "That conversation offers a lighthearted reminder that monks do not cease to be people when they enter the monastery. They retain their tastes, humor, frustrations and affection for the ordinary pleasures of life."
+   },
+   {
+    "p": "Brother Benedict hopes people will understand that monks are human beings, too. They have good days and bad days. They are not perfect, he said, but sinners striving to become holy through God’s grace."
+   },
+   {
+    "p": "That striving is the point."
+   },
+   {
+    "p": "Brother Nicholas admires Brother Benedict’s attentiveness to prayer and the way he expresses care through small gestures, such as checking in on a confrere or offering a word of appreciation. Brother Benedict, in turn, praises Brother Nicholas’ diligence in monastic observance and his creativity, particularly his willingness to find activities the community can enjoy together."
+   },
+   {
+    "p": "Their mutual respect reflects something deeper than compatibility. It is the work of a shared vocation, practiced through daily routines, prayer, personal sacrifice and the sometimes-difficult business of living with other people."
+   },
+   {
+    "p": "The monastery offers no escape from human imperfection. Instead, Brother Benedict and Brother Nicholas say it gives the monks a community in which to confront it, a tradition through which to pray and a common purpose that brings them back together."
+   },
+   {
+    "p": "And if that life occasionally leaves them wishing for a better pizza or a cleaner common room, those ordinary frustrations are part of the picture, too."
+   }
+  ]
+ },
+ {
+  "id": "awards",
+  "page": 9,
+  "title": "St. Bernard receives two international awards",
+  "byline": "Anabelle Howze",
+  "body": [
+   {
+    "p": "Two international awards are coming home to St. Bernard Preparatory School after a strong performance at the global School Stories Awards."
+   },
+   {
+    "p": "Hosted by the London-based communications firm Interactive Schools, the competition recognizes excellence in creative filmmaking and digital storytelling on school websites. St. Bernard won first place for Best Alumni Story, a highly coveted award and a silver for Best Use of Video. The winning feature documents the lives of Dr. Andy Woods and Dr. Mackenzie Woods, following their journey from St. Bernard students to married doctors raising their son, Scotty, while highlighting how the school’s math and science faculty inspired their careers in chemistry."
+   },
+   {
+    "img": "photos/p9-woods.jpg",
+    "caption": "The Woods family, St. Bernard alumni, are featured in one of the school’s internationally recognized films.",
+    "small": true
+   },
+   {
+    "p": "“Their story demonstrates the lasting impact that our faculty and academic programs can have on students long after they graduate,” SBP Vice President Rachael Stover said."
+   },
+   {
+    "p": "St. Bernard earned the gold distinction in the category; McCallie School received silver and Beverly Hills High School earned bronze. The school also won a silver award in Best Use of Video for its “Created for Greater Things” video, highlighting its academic offerings, community and student experience."
+   },
+   {
+    "p": "The videos demonstrate St. Bernard Preparatory School’s distinctive mix of intellectual development, close community and familial environment. The selected alumni story perfectly reflects both the academic opportunities and lasting relationships students form on campus."
+   },
+   {
+    "p": "“We wanted viewers to see that St. Bernard is a place where students are encouraged to discover their passions, pursue their interests and build the academic foundation they need to succeed beyond high school,” Stover said."
+   },
+   {
+    "p": "The winners were announced during a live awards presentation that Stover attended remotely. She accepted both awards for St. Bernard Preparatory School."
+   },
+   {
+    "p": "“It was a pleasure to receive the awards on behalf of St. Bernard Prep,” Stover said. “You could feel the energy from the Interactive Schools presenters.”"
+   },
+   {
+    "p": "St. Bernard alumni worked with outside partners to produce the videos. Alumnus and Emmy-nominated editor Glenn Gapultos led post-production, while alumna Lisa Proohet O’Brien directed the visual design and styling. Greg Jeffery, founder of the Catholic Development Group, supported the project throughout production."
+   },
+   {
+    "p": "The production took three full days of filming and involved current students, faculty, staff and alums."
+   },
+   {
+    "p": "“Seeing the St. Bernard community come together to tell these stories was meaningful. Having those stories recognized internationally makes the achievement even more special,” Stover said."
+   },
+   {
+    "p": "School leaders anticipate that international recognition will strengthen St. Bernard’s marketing and help prospective families better understand its mission and identity."
+   },
+   {
+    "p": "As a small boarding school, St. Bernard provides personal attention and the benefits of a close-knit campus community while maintaining a global perspective through a diverse student body from across the United States and abroad. “St. Bernard is more than a school,” Stover said. “It is a community and a family, one that challenges students intellectually, encourages them to pursue their passions and prepares them to make an impact in the world.”"
+   }
+  ]
+ },
+ {
+  "id": "bus-drivers",
+  "page": 10,
+  "title": "Unsung Heroes: SBP’s bus drivers",
+  "byline": "Grayson Stewart, staff writer for the Bernardian Herald",
+  "body": [
+   {
+    "p": "<em>Editor’s note: The following story is an exclusive to St. Bernard Happenings from Dr. Craig Mann’s journalism class at St. Bernard Preparatory School. There are many unsung heroes around St. Bernard Prep who keep our school running every day. One special group of those individuals is the drivers who both connect SBP to families in the Decatur area each school day and transport our sports teams throughout the athletic seasons.</em>"
+   },
+   {
+    "h": "Alan Kerber"
+   },
+   {
+    "img": "photos/p10-kerber.jpg",
+    "caption": "Alan Kerber",
+    "small": true
+   },
+   {
+    "p": "Besides driving for SBP, Alan Kerber is the husband of Kimberly Kerber, whom he married in December 1978. He has four children who attended Sacred Heart and St. Bernard Preparatory School: Anne, Timothy, David, and Daniel. He also has eight grandchildren, including Madilyn, who graduated from SBP in 2024; Lily, an eighth grader at SBP; and Zoe, a fifth grader at Sacred Heart. In addition, Mr. Kerber has hosted three exchange students from Germany, all of whom attended St. Bernard."
+   },
+   {
+    "p": "Mr. Kerber was born and raised in Sidney, Ohio, where he was one of 12 children. He attended Catholic schools through his high school graduation. During high school, he worked 40 hours per week during his junior and senior years, and he also worked an eight-hour part-time job on Saturdays. After high school, Mr. Kerber became a cookie distributor for Archway, moving to Cullman with the company in 1987."
+   },
+   {
+    "p": "In 1995, he attended Wallace State Community College and later attended Athens State University, graduating with a bachelor’s degree in business. For the next 25 years after college, Mr. Kerber worked in sales and management. He then went to work at Cullman Caring for Kids, where he still works today as an inventory specialist and food bank manager."
+   },
+   {
+    "p": "In addition to working for Cullman Caring for Kids, Mr. Kerber is a regular bus driver for SBP and has driven for the Cullman County Board of Education since 2020. He was also the caretaker of the Catholic Cemetery from 2007 to 2025."
+   },
+   {
+    "p": "Mr. Kerber says that he likes to drive the bus because “I like the peace, quiet, and prayer time it gives me.”"
+   },
+   {
+    "p": "He also offered some advice to the students at SBP: “Life will get hard, and when it does, put your head down, one foot in front of the other, and keep moving. Things either will get better or God will help you accept it; just keep moving forward.”"
+   },
+   {
+    "h": "Chief Kenny Culpepper"
+   },
+   {
+    "img": "photos/p10-culpepper.jpg",
+    "caption": "Chief Kenny Culpepper",
+    "small": true
+   },
+   {
+    "p": "Chief Kenny Culpepper stays busy serving as both one of the school’s School Resource Officers and one of its bus drivers. The retired chief of the Cullman Police Department, Culpepper is married to Diane Culpepper, a retired schoolteacher. He is the father of three children — Cody, Clint and Kelsey — and a grandfather to two granddaughters, Olivia and Ophelia."
+   },
+   {
+    "p": "Chief Culpepper graduated from Cullman High School, where he was a star on the football team. From there, he attended Auburn University, where he majored in criminal justice and played on the rugby team. He later graduated from Athens State with degrees in history and political science."
+   },
+   {
+    "p": "He spent 21 years in the Alabama National Guard, serving in the 20th Special Forces. Shortly after this service, he also joined the Cullman Police Department, where he worked as an officer for 48 years and served as chief for 34. When he retired in 2022, Chief Culpepper was hired at SBP as an SRO, a role he has held for four years. Besides driving St. Bernard Prep’s school buses, he also drives for Cullman City Schools and St. John’s Church."
+   },
+   {
+    "p": "In his rare free time, Chief Culpepper likes to work on his farm and attend Auburn football games."
+   },
+   {
+    "p": "“My favorite thing is spending time with my family,” he said. “On Wednesday nights, we have family night. Our kids and grandkids come over and we eat and play games.”"
+   },
+   {
+    "p": "“I really enjoy working at St. Bernard,” Chief Culpepper added. “The students are great. I taught D.A.R.E. (Drug Abuse Resistance Education) here for 20-plus years with (longtime educator) Ruth Ann Knight, and it has always been a special place to me.”"
+   },
+   {
+    "h": "Shaun Stewart"
+   },
+   {
+    "img": "photos/p10-stewart.jpg",
+    "caption": "Shaun Stewart",
+    "small": true
+   },
+   {
+    "p": "Shaun Stewart, a familiar face around Saint Bernard, has been driving the Decatur bus route Tuesday through Friday afternoons for a year."
+   },
+   {
+    "p": "Aside from driving the bus, Mr. Stewart is married to Kim Stewart and has two children, Griffin and Grayson. In 1997, he graduated from Vinemont High School after playing football for six years. He then attended Wallace State Community College, where he was active in the machine shop program. He has worked as a conductor for CSX Railroad in Decatur and Birmingham for 26 years."
+   },
+   {
+    "p": "In his free time, Mr. Stewart enjoys watching Alabama football, helping his wife in the classroom and spending time with his family."
+   },
+   {
+    "p": "“St. Bernard has become a big part of our family and lives,” Mr. Stewart said. “I’ve enjoyed helping with the festivals and getting to know most of the staff, and I’ve also enjoyed interacting with the students who ride the bus.”"
+   }
+  ]
+ },
+ {
+  "id": "anabelle-howze",
+  "page": 10,
+  "title": "Anabelle Howze brings storytelling experience to St. Bernard",
+  "body": [
+   {
+    "img": "photos/p10-howze.jpg",
+    "caption": "Anabelle Howze",
+    "credit": "Photo by Anne Stephens",
+    "small": true
+   },
+   {
+    "p": "For Anabelle Howze, joining St. Bernard Preparatory School has been an opportunity to put her communications experience to work in a community whose mission reflects her faith."
+   },
+   {
+    "p": "A Cullman native, Howze earned a bachelor’s degree in mass communications from the University of North Alabama, graduating a year and a half early. She focused on broadcasting and journalism. An internship in strategic marketing and communications at the UAB School of Nursing gave her experience sharing the work of a higher education institution."
+   },
+   {
+    "p": "Howze later worked as a multimedia journalist at The Cullman Tribune, covering local news and community events. In July, she joined St. Bernard as its Marketing and Events Coordinator. Howze now oversees festival planning and helps tell St. Bernard’s story through school publications, social media and more. Her work also supports admissions and connects the school with the wider community."
+   },
+   {
+    "p": "One of her first major responsibilities was helping organize the 10th annual Bernard Blues &amp; BBQ Festival. Without a formal background in event planning, taking on a festival that size was daunting at first. Working alongside experienced colleagues gave her a chance to learn as preparations came together."
+   },
+   {
+    "p": "What resonated most with Howze was the team’s devotion to St. Bernard and its festivals. Teamwork with people so focused on keeping those traditions alive and growing ended up being the highlight of her first festival."
+   },
+   {
+    "p": "Howze considers it a privilege to work at a school where faith guides daily life and service to others reflects a commitment to honoring God. The welcome she has received from those who carry out that mission has deepened her appreciation for St. Bernard."
+   },
+   {
+    "p": "She looks forward to sharing the community’s stories and helping its traditions grow, while continuing to learn from the people who have made her feel at home."
+   }
+  ]
+ },
+ {
+  "id": "christmas-grotto-ad",
+  "page": 10,
+  "title": "Christmas at the Grotto: dates and admission",
+  "kind": "Announcement",
+  "body": [
+   {
+    "img": "photos/p10-grotto-ad.jpg",
+    "caption": ""
+   },
+   {
+    "p": "<strong>Dates:</strong> Nov. 19–22 · Nov. 27–29 · Dec. 3–6 · Dec. 10–23 · Dec. 26–27"
+   },
+   {
+    "p": "<strong>Hours:</strong> Mon.–Sat. 9 a.m.–9 p.m. · Sunday noon–9 p.m. · Lights on at 5 p.m."
+   },
+   {
+    "p": "<strong>Admission:</strong> Adults $12 · Seniors $10 · Teens (13–17) $10 · Children (5–12) $9 · Ages 4 &amp; under free · Military &amp; first responders $9"
+   },
+   {
+    "p": "<strong>Special weekend, Dec. 11–12:</strong> food trucks, meet Santa, live music and entertainment, horse-drawn wagon rides ($7)."
+   },
+   {
+    "p": "Ave Maria Grotto, 1600 St Bernard Dr, Cullman, AL 35055"
+   }
+  ]
+ }
 ]
