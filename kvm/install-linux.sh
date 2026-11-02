@@ -3,6 +3,10 @@
 # every login and reconnect on its own. Works with Deskflow, Input Leap, or
 # Barrier (whichever is installed).
 #
+# One-line install straight from GitHub (asks for the Mac's name):
+#   curl -fsSL https://raw.githubusercontent.com/munkachy/tools/main/kvm/install-linux.sh | bash
+#
+# Or, from a copy of this file:
 #   ./install-linux.sh <mac-address-or-name> [this-screen-name]
 #   ./install-linux.sh --test      # run once in the foreground to see errors
 #   ./install-linux.sh --uninstall
@@ -37,12 +41,36 @@ case "${1:-}" in
   --test)
     [ -f "$CONF" ] || die "Run the installer first."
     exec "$RUNNER" --once ;;
-  ""|-h|--help)
-    sed -n '2,9p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
+  -h|--help)
+    cat <<'HELP'
+Usage:
+  install-linux.sh <mac-address-or-name> [this-screen-name]
+  install-linux.sh --test        run once in the foreground to see errors
+  install-linux.sh --uninstall   remove it
+HELP
+    exit 0 ;;
 esac
 
-SERVER="$1"
-NAME="${2:-$(hostname -s)}"
+# Ask for anything not given on the command line. Read from the terminal, not
+# stdin, because stdin is the script itself when run as "curl ... | bash".
+ask() {
+  local prompt="$1" default="$2" reply=""
+  if [ -r /dev/tty ]; then
+    read -r -p "$prompt${default:+ [$default]}: " reply < /dev/tty || true
+  fi
+  echo "${reply:-$default}"
+}
+
+SERVER="${1:-}"
+if [ -z "$SERVER" ]; then
+  echo "The Mac's name is in System Settings > General > Sharing, at the bottom"
+  echo "(\"Local hostname\", something like Brothers-iMac.local)."
+  SERVER="$(ask "Mac's name or IP address" "")"
+  [ -n "$SERVER" ] || die "No Mac name given."
+  NAME="$(ask "This computer's screen name (must match the Mac's layout)" "$(hostname -s)")"
+else
+  NAME="${2:-$(hostname -s)}"
+fi
 CLIENT="$(find_client)"
 [ -n "$CLIENT" ] || die "No Deskflow, Input Leap, or Barrier client found. Install one first (see README)."
 
@@ -121,9 +149,16 @@ echo "  Client program: $CLIENT"
 echo "  Connects to:    $SERVER:24800"
 echo "  Screen name:    $NAME"
 echo
-echo "It starts by itself every time you log in. To start it now without"
-echo "rebooting, run:   nohup $RUNNER >/dev/null 2>&1 &"
-echo "Log file:         $LOG"
+echo "It starts by itself every time you log in."
+# Start it now too, if we're inside a desktop session.
+if [ -n "${DISPLAY:-}${WAYLAND_DISPLAY:-}" ]; then
+  pkill -f "$RUNNER" 2>/dev/null || true
+  setsid nohup "$RUNNER" >/dev/null 2>&1 < /dev/null &
+  echo "It's running now as well. Try moving the Mac's mouse off the left edge."
+else
+  echo "Log in to the desktop (or reboot) to start it."
+fi
+echo "Log file: $LOG"
 if [ "${XDG_SESSION_TYPE:-}" = "wayland" ]; then
   echo
   echo "Note: you are on Wayland. See the README section on Wayland; this is the"

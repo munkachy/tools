@@ -30,20 +30,28 @@ back.
 
 Install the same program you use on the Mac, if it isn't already there.
 On Ubuntu/Debian/Mint, `sudo apt install input-leap` (or `barrier`) works;
-Deskflow is on Flathub. Then, from this folder:
+Deskflow is on Flathub.
+
+Then open a terminal on the Linux desktop and paste this one line:
 
 ```bash
-./install-linux.sh Brothers-iMac.local
+curl -fsSL https://raw.githubusercontent.com/munkachy/tools/main/kvm/install-linux.sh | bash
 ```
 
-Put your Mac's real name in place of `Brothers-iMac.local`. If the screen
-name on the Mac isn't the Linux hostname, add it as a second word:
+It asks two questions: the Mac's name (e.g. `Brothers-iMac.local`) and
+what to call this screen (just press Enter to keep the computer's name,
+unless you named it something else in the Mac's layout). It starts the
+connection right away, and again at every login.
+
+Reboot the Linux computer once to prove it comes back on its own.
+
+To answer the questions up front instead (handy for a script):
 
 ```bash
-./install-linux.sh Brothers-iMac.local monk-linux
+curl -fsSL https://raw.githubusercontent.com/munkachy/tools/main/kvm/install-linux.sh | bash -s -- Brothers-iMac.local monk-linux
 ```
 
-Then reboot the Linux computer once to prove it comes back on its own.
+Running the same line again later is safe; it just updates the settings.
 
 **Turn off the program's own client.** If the Deskflow/Input Leap window on
 Linux is also set to start at login, switch that off. Two clients with the
@@ -51,7 +59,8 @@ same name knock each other off the server.
 
 ## If it doesn't connect
 
-- **See the error directly:** `./install-linux.sh --test` runs the client in
+- **See the error directly:** add ` -s -- --test` to the end of the install
+  line (so it ends `| bash -s -- --test`). That runs the client in
   the window so you can read what it says. Ctrl+C stops it.
 - **Read the log:** `~/.config/kvm-client/client.log`
 - **"Unknown screen name"**: the name on Linux doesn't match the screen you
@@ -83,5 +92,5 @@ then works with no pop-ups.
 ## Removing it
 
 ```bash
-./install-linux.sh --uninstall
+curl -fsSL https://raw.githubusercontent.com/munkachy/tools/main/kvm/install-linux.sh | bash -s -- --uninstall
 ```
